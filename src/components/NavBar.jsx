@@ -17,7 +17,6 @@ export default function NavBar() {
         <Link to="/" className="nav-link">
           <img src={logo} alt="ubc girlcode" className="navbar-logo"></img>
         </Link>
-
         <Toolbar>
           <Box sx={{ flexGrow: 1 }}>
             <Link to="/about" className="social-link">
