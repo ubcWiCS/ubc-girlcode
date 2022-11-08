@@ -12,7 +12,7 @@ export default function Home() {
       <NavBar />
       <div className= "landingPage">
         <SocialSideBar />
-        <img src={girlCode} alt="ubc girlcode" className="girlCode"></img>
+        <img src={girlCode} alt="girlcode"></img>
       </div>
       <div className = "content">
         <div className = "leftJustified">
