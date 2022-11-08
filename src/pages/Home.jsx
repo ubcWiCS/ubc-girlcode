@@ -11,15 +11,16 @@ export default function Home() {
     <>
       <NavBar />
       <div className= "landingPage">
-        <SocialSideBar />
+        
         <img src={girlCode} alt="girlcode"></img>
+        <SocialSideBar />
       </div>
       <div className = "content">
         <div className = "leftJustified">
         <paragraph><purple>Women in Computer Science</purple> and <blue>Women in Data Science</blue> are proud to present UBC's 
           first fashion-themed hackathon for underrepresented gender minorities. <br/> <br/>  #GirlsGitIt 
           <br/><br/><br/>
-          <button1><a href="About.html">Learn More</a></button1>
+          <button1><a href="/about">Learn More</a></button1>
         </paragraph>
         </div>
           <div className = "rightJustified">
@@ -31,7 +32,7 @@ export default function Home() {
           <div className = "glass">
             <paragraph>girlCode strives to <bold>ignite</bold> creativity, <bold>build</bold> friendships and <bold>empower</bold> the next generation of leaders in tech through building impactful solutions. </paragraph>
             <br/><br/><br/><br/>
-            <button1><a href="SignUp.html">Register Now</a></button1>
+            <button1><a href="/sign-up">Register Now</a></button1>
           </div>
         </div>
         <div className = "leftJustified">

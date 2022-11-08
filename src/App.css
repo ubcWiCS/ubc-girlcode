@@ -33,11 +33,12 @@ bold {
 }
 
 .navbar {
-  background-color: #3E3E3E !important;
+  background-color: black !important;
   box-shadow: none !important;
   flex-direction: row-reverse !important;
   height: 120px;
-  padding-left: 0px !important;  
+  padding-left: 0px !important; 
+  margin-right: -20px !important;
 }
 
 .nav-link {
@@ -46,23 +47,27 @@ bold {
   color: white;
   padding: 10px;
   float: right;
-  font-family: Inter;
+  font: Inter;
+  font-weight: bold;
+}
+
+.nav-link button1 {
+  font-size: 16px;
+  padding: 7px 20px 7px 20px;
 }
 
 .nav-link:hover {
-  text-decoration: none; 
   margin: 10px;
-  color: white;
-  background-color: #BFB8E9;
-  padding: 10px;
-  border-radius: 10px;
+  background-image: linear-gradient(45deg, #bfb8e9 30%, #8eb1df);
+  background-clip: text;
+  color: transparent;
 }
 
 .navbar-logo{
-  height: 20%;
-  width: 20%;
-  top: 0px;
-  left: 10px;
+  max-width: 200px;
+  width:30%;
+  top: 20px;
+  left: 20px;
   position: absolute;
 }
 
@@ -151,7 +156,7 @@ bold {
   position: absolute;
   left: 0;
   margin-left: 50px;
-  padding-top: 300px;
+  margin-top: -200px;
 }
 
 .vertical {
@@ -220,27 +225,29 @@ button1 a {
 @media only screen and (max-width: 800px) {
 
   .landingPage{
+
     padding: 50px;
+    padding-top: 200px;
     height: 500px;
-    display: flex;
-    justify-content: center;
   }
   .content {
     padding: 50px;
   }
+  
   .glass {
     padding: 50px;
     margin: 1px;
   }
   .icons{
-    padding-top: 600px;
     width: 100%;
+    margin: 0px;
+    padding-top: 200px;
+    position: relative;
     display: flex;
     justify-content: center;
-    margin: 0px;
   }
-  .vertical {
-    padding: 30px;
-    transition: 0.3s;
+
+  .nav-link {
+    padding: 0px;
   }
 }

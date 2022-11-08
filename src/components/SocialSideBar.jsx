@@ -8,7 +8,6 @@ import "../App.css";
 export default function NavBar() {
   return (
     <>
-      <AppBar position="absolute" className="socialSideBar">
           <div className = "icons">
             <FaInstagram size={25} className="social vertical" />
             <FaTiktok size={25} className="social vertical" />
@@ -17,7 +16,6 @@ export default function NavBar() {
             </a>
             <FaLinkedin size={25} className="social vertical" />
           </div>
-      </AppBar>
     </>
   );
 }

@@ -10,8 +10,8 @@ export default function SignUp() {
     <>
         <NavBar />
         <div className= "landingPage">
-          <SocialSideBar />
           <img src={register} alt="register"></img>
+          <SocialSideBar />
         </div>
         <div className = "centre">
           <iframe src="https://ubc.ca1.qualtrics.com/jfe/form/SV_bO6taMrJnPF81kG" width="800px" height="2500" frameBorder="0"></iframe>
