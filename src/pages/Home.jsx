@@ -3,6 +3,7 @@ import * as React from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import SocialSideBar from "../components/SocialSideBar"
+import girlCode from "../imgs/girlCodeText.svg";
 
 
 export default function Home() {
@@ -11,14 +12,12 @@ export default function Home() {
       <NavBar />
       <div className= "landingPage">
         <SocialSideBar />
-        <div className = "gradientFont">
-          <gradientFont>girlCode</gradientFont>
-        </div>
+        <img src={girlCode} alt="ubc girlcode" className="girlCode"></img>
       </div>
       <div className = "content">
         <div className = "leftJustified">
         <paragraph><purple>Women in Computer Science</purple> and <blue>Women in Data Science</blue> are proud to present UBC's 
-          first retail sponsored hackathon for underrepresented gender minorities. <br/> <br/>  #GirlsGitIt 
+          first fashion-themed hackathon for underrepresented gender minorities. <br/> <br/>  #GirlsGitIt 
           <br/><br/><br/>
           <button1><a href="About.html">Learn More</a></button1>
         </paragraph>
@@ -46,6 +45,7 @@ export default function Home() {
           <paragraph> Any Questions? <bold>Contact Us</bold></paragraph>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

@@ -96,13 +96,11 @@ bold {
   height: auto;
   max-height: 200px !important;
   padding: 10px;
-  width: 100% !important;
   background-color: #DC9180;
   color: black;
-  position: absolute;
-  bottom: 0 !important;
   display: flex !important;
   flex-direction: row !important;
+  margin-top: auto !important;
 }
 
 .footer-left-container{
@@ -144,6 +142,11 @@ bold {
   padding: 300px;
 }
 
+.landingPage img{
+  width: 30%;
+  min-width: 250px;
+}
+
 .icons{
   position: absolute;
   left: 0;
@@ -173,7 +176,8 @@ bold {
 }
 
 .centre {
-  padding: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -213,3 +217,30 @@ button1 a {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 800px) {
+
+  .landingPage{
+    padding: 50px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+  }
+  .content {
+    padding: 50px;
+  }
+  .glass {
+    padding: 50px;
+    margin: 1px;
+  }
+  .icons{
+    padding-top: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+  }
+  .vertical {
+    padding: 30px;
+    transition: 0.3s;
+  }
+}
