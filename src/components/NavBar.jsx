@@ -1,36 +1,33 @@
-import * as React from "react";
-import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
+import { Navbar, Container, Nav } from 'react-bootstrap'
+import { NavLink } from 'react-router-dom'
+import navbarLogo from "../imgs/girlcode.svg";
 
-import { Link } from "react-router-dom";
-
-import logo from "../imgs/girlcode.svg";
 import "../App.css";
 
-export default function NavBar() {
+export default function NavBar () {
+
   return (
-    <>
-      <AppBar position="static" className="navbar">
-        <Link to="/" className="nav-link">
-          <img src={logo} alt="ubc girlcode" className="navbar-logo"></img>
-        </Link>
-        <Toolbar>
-          <Box sx={{ flexGrow: 1 }}>
-            <Link to="/register" className="nav-link">
-              <button className="reg-button">
-              Register Now
-              </button>           
-            </Link>
-            <Link to="/contact" className="nav-link">
-              Contact
-            </Link>
-            <Link to="/about" className="nav-link">
-              About
-            </Link>
-          </Box>
-        </Toolbar>
-      </AppBar>
-    </>
-  );
+    <Navbar bg="light" expand="lg">
+      <Container className="navbar" fluid>
+        <Navbar.Brand className='navbar-name' as={NavLink} to="/">
+          <img
+            alt="logo"
+            src={navbarLogo}
+            width="100"
+            height="100"
+            className="d-inline-block align-top"
+          />
+          </Navbar.Brand>
+        <Navbar.Toggle />
+        <Navbar.Collapse id="basic-navbar-nav" bg="light">
+          <Nav className="ms-auto">
+            <Nav.Link as={NavLink} to="/" className="nav-link">Home</Nav.Link>
+            <Nav.Link as={NavLink} to="/about" className="nav-link">About</Nav.Link>
+            <Nav.Link as={NavLink} to="/contact" className="nav-link">Contact</Nav.Link>
+            <Nav.Link as={NavLink} to="/register" className="nav-link">Register Now</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  )
 }
