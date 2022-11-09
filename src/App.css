@@ -132,34 +132,35 @@ button1 a {
 /*  NAVIGATION */
 
 .navbar {
-  background-color: black !important;
-  box-shadow: none !important;
-  flex-direction: row-reverse !important;
-  height: 120px;
-  padding-left: 0px !important; 
-  margin-right: -20px !important;
+  background-color: black;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar-toggler{
+  background-color: #DC9180 !important;
 }
 
 .nav-link {
   text-decoration: none; 
   margin: 10px;
-  color: white;
+  color: white !important;
   padding: 10px;
   float: right;
   font: Inter;
   font-weight: bold;
 }
 
-.nav-link button1 {
-  font-size: 16px;
-  padding: 7px 20px 7px 20px;
-}
-
 .nav-link:hover {
   margin: 10px;
   background-image: linear-gradient(45deg, #bfb8e9 30%, #8eb1df);
   background-clip: text;
-  color: transparent;
+  color: transparent !important;
+}
+
+.nav-link button1 {
+  font-size: 16px;
+  padding: 7px 20px 7px 20px;
 }
 
 .navbar-logo{
@@ -170,8 +171,16 @@ button1 a {
   position: absolute;
 }
 
-.social{
-  color: white;
+.icons{
+  position: absolute;
+  left: 0;
+  margin-left: 50px;
+  margin-top: -60px;
+}
+
+svg{
+  stroke: white !important;
+  fill: white !important;
   width: 30px;
 }
 
@@ -236,13 +245,6 @@ button1 a {
   justify-content: flex-end;
 }
 
-.icons{
-  position: absolute;
-  left: 0;
-  margin-left: 50px;
-  margin-top: -200px;
-}
-
 /* REGISTRATION PAGE */
 
 .regPageTitle{
@@ -264,13 +266,7 @@ button1 a {
   position: absolute;
   left: 0;
   margin-left: 50px;
-  margin-top: -200px;
-}
-
-.vertical {
-  display: block;
-  padding: 30px;
-  transition: 0.3s;
+  margin-top: -100px;
 }
 
 .registerPageBody {
@@ -279,7 +275,6 @@ button1 a {
   display: flex;
   justify-content: center;
 }
-
 
 .reg-button {
   border-radius: 100px;
@@ -324,23 +319,33 @@ button1 a {
   .icons{
     width: 100%;
     margin: 0px;
-    padding-top: 200px;
+    padding-top: 40px;
     position: relative;
     display: flex;
     justify-content: center;
   }
 
+  .vertical {
+    display: block;
+    padding: 30px;
+    transition: 0.3s;
+  }
+
   .regPageTitle{
-    padding: 50px 50px 100px 50px;
+    padding: 200px 50px 100px 50px;
   }
 
   .reg-icons{
     width: 100%;
-    margin-left: 0px;
-    margin-top: -200px;
+    margin: 0px;
+    padding-top: 100px;
     position: relative;
     display: flex;
     justify-content: center;
+  }
+
+  .registerPageBody{
+    margin-top: 100px;
   }
 
   .inner-text{
