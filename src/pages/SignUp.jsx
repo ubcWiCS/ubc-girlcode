@@ -14,7 +14,7 @@ export default function SignUp() {
           <img src={register} alt="register"></img>
         </div>
         <div className = "centre">
-          <iframe src="https://ubc.ca1.qualtrics.com/jfe/form/SV_bO6taMrJnPF81kG" width="800px" height="2500" frameBorder="0"></iframe>
+          <iframe src="https://ubc.ca1.qualtrics.com/jfe/form/SV_bO6taMrJnPF81kG" width="800px" height="2400" frameBorder="0"></iframe>
         </div>
         
         <Footer />
