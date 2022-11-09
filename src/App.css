@@ -119,13 +119,11 @@ bold {
   display: flex;
   flex-direction: column;
   text-align: right;
-
 }
 
 .footer-logo{
   height: 60%;
   width: 60%;
-
 }
 
 .footer-logo-club{
@@ -159,6 +157,29 @@ bold {
   margin-top: -200px;
 }
 
+
+.regPageTitle{
+  text-align: center;
+  height: 200px;
+  padding: 0px 300px 0px 300px;
+}
+
+.regPageSocials{
+  padding-top: 260px;
+}
+
+.regPageTitle img{
+  width: 30%;
+  min-width: 250px;
+}
+
+.reg-icons{
+  position: absolute;
+  left: 0;
+  margin-left: 50px;
+  margin-top: -200px;
+}
+
 .vertical {
   display: block;
   padding: 30px;
@@ -180,13 +201,11 @@ bold {
   padding-bottom: 100px;
 }
 
-.centre {
-  padding-top: 100px;
-  padding-bottom: 200px;
+.registerPageBody {
+  margin: 0px 0px 200px 0px;
   text-align: center;
   display: flex;
   justify-content: center;
-
 }
 
 .glass {
@@ -225,11 +244,11 @@ button1 a {
 @media only screen and (max-width: 800px) {
 
   .landingPage{
-
     padding: 50px;
     padding-top: 200px;
     height: 500px;
   }
+
   .content {
     padding: 50px;
   }
@@ -238,6 +257,7 @@ button1 a {
     padding: 50px;
     margin: 1px;
   }
+
   .icons{
     width: 100%;
     margin: 0px;
@@ -249,5 +269,29 @@ button1 a {
 
   .nav-link {
     padding: 0px;
+  }
+
+  .regPageTitle{
+    padding: 50px 50px 100px 50px;
+  }
+
+  .reg-icons{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .reg-icons{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
   }
 }
