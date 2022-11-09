@@ -17,8 +17,10 @@ export default function NavBar() {
         </Link>
         <Toolbar>
           <Box sx={{ flexGrow: 1 }}>
-            <Link to="/sign-up" className="nav-link">
-              <button1><a href="/sign-up">Register Now</a></button1>
+            <Link to="/register" className="nav-link">
+              <button className="reg-button">
+              Register Now
+              </button>           
             </Link>
             <Link to="/contact" className="nav-link">
               Contact
