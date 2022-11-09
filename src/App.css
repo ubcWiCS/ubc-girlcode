@@ -1,5 +1,35 @@
 body{
-  background-color: #3E3E3E;
+  background-color: black;
+  font: Inter;
+}
+
+gradientFont{
+  display: inline-block;
+  vertical-align: middle;
+  background-image: linear-gradient(45deg, #bfb8e9 30%, #8eb1df);
+  background-clip: text;
+  color: transparent;
+  font-size: 100px;
+  font-weight:900;
+}
+
+purple {
+  color: #bfb8e9;
+  font-weight: bold;
+}
+
+blue {
+  color: #8eb1df;
+  font-weight: bold;
+}
+
+paragraph {
+  font-size: 20px;
+  line-height: 2;
+}
+
+bold {
+  font-weight: bold;
 }
 
 .navbar {
@@ -66,13 +96,11 @@ body{
   height: auto;
   max-height: 200px !important;
   padding: 10px;
-  width: 100% !important;
   background-color: #DC9180;
   color: black;
-  bottom: 0;
-  position: absolute;
   display: flex !important;
   flex-direction: row !important;
+  margin-top: auto !important;
 }
 
 .footer-left-container{
@@ -106,4 +134,113 @@ body{
   height: 50px;
   display: flex;
   justify-content: flex-end;
+}
+
+.landingPage{
+  text-align: center;
+  height: 200px;
+  padding: 300px;
+}
+
+.landingPage img{
+  width: 30%;
+  min-width: 250px;
+}
+
+.icons{
+  position: absolute;
+  left: 0;
+  margin-left: 50px;
+  padding-top: 300px;
+}
+
+.vertical {
+  display: block;
+  padding: 30px;
+  transition: 0.3s;
+}
+
+.content {
+  padding: 200px;
+  color: white;
+}
+
+.leftJustified {
+  width: 60%;
+  padding-top: 100px;
+}
+
+.rightJustified {
+  text-align: right;
+  padding-top: 100px;
+}
+
+.centre {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+.glass {
+  max-width: 500px;
+  padding: 100px;
+  background: linear-gradient(45deg, rgba(191, 184, 233, .3) 30%, rgba(142, 177, 223, .3));
+  background-color: rgba(255, 255, 255, .2);
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, .25);
+  box-shadow: 0 0 10px 1px rgba(255, 255, 255, .2);
+  box-shadow: inset 5px 5px 10px 0px rgba(255, 255, 255, .4), inset -5px -5px 10px 0px rgba(0, 0, 0, .4);
+  backdrop-filter: blur(20px);
+}
+
+button1 {
+  border-radius: 100px;
+  background-image: linear-gradient(45deg, #dc9180 30%, white);
+  background: linear-gradient(90deg, #bfb8e9, transparent) #8eb1df;
+  color: white;
+  padding: 10px 50px 10px 50px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button1:hover {
+  background-color: #dc9180;
+  color: white;
+}
+
+button1 a {
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+
+  .landingPage{
+    padding: 50px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+  }
+  .content {
+    padding: 50px;
+  }
+  .glass {
+    padding: 50px;
+    margin: 1px;
+  }
+  .icons{
+    padding-top: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+  }
+  .vertical {
+    padding: 30px;
+    transition: 0.3s;
+  }
 }
