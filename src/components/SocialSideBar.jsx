@@ -18,7 +18,7 @@ export default function SocialSideBar(props) {
           <a href="https://www.facebook.com/events/1625780564822041">
             <FaFacebook size={25} className="social-link" />
           </a>
-          <a href="https://www.facebook.com/events/1625780564822041">
+          <a href="https://www.linkedin.com/company/ubcwics/">
             <FaLinkedin size={25} className="social-link" />
           </a>
         </div>

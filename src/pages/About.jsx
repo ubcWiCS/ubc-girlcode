@@ -14,115 +14,134 @@ import wics from "../imgs/wics.svg";
 import wids from "../imgs/wids.svg";
 import valuesText from "../imgs/values-text.svg";
 
+import manyBubbles from "../imgs/many-bubbles-right.svg";
+
 import "./about.css";
 
 export default function About() {
   return (
     <>
       <NavBar />
-      <div className="centered-container">
+      <div className="page-starter-container">
+      <img src={manyBubbles} alt="Aritzia" className="starter-bubbles-right"></img>
         <gradient-large>About girlCode</gradient-large>
         <SocialSideBar className="icons" />
       </div>
-      <div className="centered-container">
-        <gradient-large>What &nbsp;</gradient-large>
-        <Typography color="white" inline="inline" weight="bold" variant="h1">
-          24-hour &nbsp;
-        </Typography>
-        <Typography color="tan" inline="inline" weight="bold" variant="h1">
-          in-person &nbsp;
-        </Typography>
-        <Typography color="white" inline="inline" weight="bold" variant="h1">
-          hackathon &nbsp;
-        </Typography>
-        <br />
-        <gradient-large>Where &nbsp;</gradient-large>
-        <Typography color="white" inline="inline" weight="bold" variant="h1">
-          hosted at &nbsp;
-        </Typography>
-        <Typography color="tan" inline="inline" weight="bold" variant="h1">
-          UBC &nbsp;
-        </Typography>
-        <br />
-        <gradient-large>When &nbsp;</gradient-large>
-        <Typography color="white" inline="inline" weight="bold" variant="h1">
-          from &nbsp;
-        </Typography>
-        <Typography color="tan" inline="inline" weight="bold" variant="h1">
-          January 13th-14th, &nbsp;
-        </Typography>
-        <Typography color="white" inline="inline" weight="bold" variant="h1">
-          2023 &nbsp;
-        </Typography>
+      <div className="inner-text">
+        <div className="about-responsive page-container ">
+          <gradient-medium>What&nbsp; &nbsp; &nbsp;</gradient-medium>
+          <Typography color="white" inline="inline" weight="bold" variant="h1">
+            24-hour &nbsp;
+          </Typography>
+          <Typography color="tan" inline="inline" weight="bold" variant="h1">
+            in-person &nbsp;
+          </Typography>
+          <Typography color="white" inline="inline" weight="bold" variant="h1">
+            hackathon &nbsp;
+          </Typography>
+          <br />
+          <gradient-medium>Where &nbsp;</gradient-medium>
+          <Typography color="white" inline="inline" weight="bold" variant="h1">
+            hosted at &nbsp;
+          </Typography>
+          <Typography color="tan" inline="inline" weight="bold" variant="h1">
+            UBC &nbsp;
+          </Typography>
+          <br />
+          <gradient-medium>When &nbsp; &nbsp;</gradient-medium>
+          <Typography color="white" inline="inline" weight="bold" variant="h1">
+            from &nbsp;
+          </Typography>
+          <Typography color="tan" inline="inline" weight="bold" variant="h1">
+            January 13th-14th, &nbsp;
+          </Typography>
+          <Typography color="white" inline="inline" weight="bold" variant="h1">
+            2023 &nbsp;
+          </Typography>
+        </div>
       </div>
 
-        <div className="centered-container">
-          <gradient-large>Learn, Build, Connect</gradient-large>
-          <div className="grid-container">
-            <div className="glass-small grid-child">
-              <Typography color="tan" weight="bold" variant="h1">
-                Workshops
-              </Typography>
-              <Typography color="white">
-                Join us for live pre-hackathon preparation sessions, as well as
-                specific skill-building workshops throughout the hackathon.
-              </Typography>
-            </div>
-            <div className="glass-small grid-child">
-              <Typography color="tan" weight="bold" variant="h1">
-                Networking
-              </Typography>
-              <Typography color="white">
-                {" "}
-                Network with Aritzia engineers, UBC alumni, and other gender
-                minority leaders.
-              </Typography>
-            </div>
-            <div className="glass-small grid-child">
-              <Typography color="tan" weight="bold" variant="h1">
-                Panels
-              </Typography>
-              <Typography color="white">
-                Meet and learn from industry professionals about their
-                experiences, and gain exclusive advice on how to navigate your
-                own journey.
-              </Typography>
-            </div>
-            <div className="glass-small grid-child">
-              <Typography color="tan" weight="bold" variant="h1">
-                Building
-              </Typography>
-              <Typography color="white">
-                Foster old and build new relationships alongside your meaningul
-                projects, and present to a panel of judges for prizes!
-              </Typography>
-            </div>
+      <div className="centered-container">
+        <gradient-large>Learn, Build, Connect</gradient-large>
+        <div className="grid-container">
+          <div className="glass-small grid-child">
+            <Typography color="tan" weight="bold" variant="h1">
+              Workshops
+            </Typography>
+            <Typography color="white">
+              Join us for live pre-hackathon preparation sessions, as well as
+              specific skill-building workshops throughout the hackathon.
+            </Typography>
+          </div>
+          <div className="glass-small grid-child">
+            <Typography color="tan" weight="bold" variant="h1">
+              Networking
+            </Typography>
+            <Typography color="white">
+              {" "}
+              Network with Aritzia engineers, UBC alumni, and other gender
+              minority leaders.
+            </Typography>
+          </div>
+          <div className="glass-small grid-child">
+            <Typography color="tan" weight="bold" variant="h1">
+              Panels
+            </Typography>
+            <Typography color="white">
+              Meet and learn from industry professionals about their
+              experiences, and gain exclusive advice on how to navigate your own
+              journey.
+            </Typography>
+          </div>
+          <div className="glass-small grid-child">
+            <Typography color="tan" weight="bold" variant="h1">
+              Building
+            </Typography>
+            <Typography color="white">
+              Foster old and build new relationships alongside your meaningul
+              projects, and present to a panel of judges for prizes!
+            </Typography>
           </div>
         </div>
-   
+      </div>
+
       <div className="page-container-bubbles-left text-right grid-container">
         <div className="bubbles-grid-child">
-        <img src={bubblesLeft} alt="Aritzia" className="bubbles-left"></img>
+          <img src={bubblesLeft} alt="Aritzia" className="bubbles-left"></img>
         </div>
         <div className="partnership-text">
-        <div>
-          <Typography color="white" inline="inline" weight="bold" variant="h2">
-            In &nbsp;
-          </Typography>
-          <Typography color="tan" inline="inline" weight="bold" variant="h2">
-            full partnership &nbsp;
-          </Typography>
-          <Typography color="white" inline="inline" weight="bold" variant="h2">
-            with &nbsp;
-          </Typography>
-<br />
-          <img src={aritzia} alt="Aritzia" className="about-aritzia-logo"></img>
-          <Typography color="white">
-            Aritzia is a Canadian women's fashion brand founded in Vancouver,
-            British Columbia in 1984. Aritzia sells a variety of lifestyle
-            apparel through various upscale retail stores across North America
-            and online.
-          </Typography>
+          <div>
+            <Typography
+              color="white"
+              inline="inline"
+              weight="bold"
+              variant="h2"
+            >
+              In &nbsp;
+            </Typography>
+            <Typography color="tan" inline="inline" weight="bold" variant="h2">
+              full partnership &nbsp;
+            </Typography>
+            <Typography
+              color="white"
+              inline="inline"
+              weight="bold"
+              variant="h2"
+            >
+              with &nbsp;
+            </Typography>
+            <br />
+            <img
+              src={aritzia}
+              alt="Aritzia"
+              className="about-aritzia-logo"
+            ></img>
+            <Typography color="white">
+              Aritzia is a Canadian women's fashion brand founded in Vancouver,
+              British Columbia in 1984. Aritzia sells a variety of lifestyle
+              apparel through various upscale retail stores across North America
+              and online.
+            </Typography>
           </div>
         </div>
       </div>
@@ -162,13 +181,13 @@ export default function About() {
           </Typography>
         </div>
         <Typography color="white" inline="inline" variant="h4">
-        Aritzia represents the &nbsp;
+          Aritzia represents the &nbsp;
         </Typography>
         <Typography color="tan" inline="inline" variant="h4">
-        diversity  &nbsp;
+          diversity &nbsp;
         </Typography>
         <Typography color="white" inline="inline" variant="h4">
-         we stand for.
+          we stand for.
         </Typography>
         <div className="grid-container inner-text">
           <div className="clubs-grid">
@@ -208,7 +227,7 @@ export default function About() {
       <div className="centered-container">
         <gradient-large>Prizes</gradient-large>
         <Typography color="white" variant="h3">
-        More details coming soon!
+          More details coming soon!
         </Typography>
         <gradient-small>1st Place</gradient-small>
         <br />
@@ -217,7 +236,7 @@ export default function About() {
         <gradient-small>3rd Place</gradient-small>
         <br />
         <Typography color="white" inline="inline" weight="bold" variant="h1">
-         And a prize for &nbsp;
+          And a prize for &nbsp;
         </Typography>
         <Typography color="tan" inline="inline" weight="bold" variant="h1">
           best beginner hack &nbsp;
@@ -238,30 +257,24 @@ export default function About() {
               identity.
             </Typography>
             <div className="clubs-socials">
-              <a href="https://www.instagram.com/girlcode.ubc/">
+              <a href="https://www.instagram.com/widsubc/">
                 <FaInstagram size={25} className="social-link" />
               </a>
               <a href="https://www.facebook.com/events/1625780564822041">
                 <FaFacebook size={25} className="social-link" />
               </a>
-              <FaLinkedin size={25} className="social-link" />
+              <a href="https://www.linkedin.com/company/widsubc/">
+                <FaLinkedin size={25} className="social-link" />
+              </a>
             </div>
           </div>
           <div className="clubs-grid clubs-grid-responsive">
-            <img
-              src={wids}
-              alt="wids"
-              className="club-logo"
-            ></img>
+            <img src={wids} alt="wids" className="club-logo"></img>
           </div>
         </div>
         <div className="clubs-grid-container inner-text">
           <div className="clubs-grid text-right clubs-grid-responsive">
-            <img
-              src={wics}
-              alt="wics"
-              className="club-logo"
-            ></img>
+            <img src={wics} alt="wics" className="club-logo"></img>
           </div>
           <div className="text-right clubs-grid">
             <Typography color="purple" weight="bold" variant="h2">
@@ -275,7 +288,7 @@ export default function About() {
               other as we progress through our time at UBC.
             </Typography>
             <div className="clubs-socials">
-              <a href="https://www.instagram.com/girlcode.ubc/">
+              <a href="https://www.instagram.com/ubcwics/">
                 <FaInstagram size={25} className="social-link" />
               </a>
               <a href="https://www.tiktok.com/@girlcode.ubc?_t=8XCbykWu7OM&_r=1">
@@ -284,9 +297,9 @@ export default function About() {
               <a href="https://www.facebook.com/events/1625780564822041">
                 <FaFacebook size={25} className="social-link" />
               </a>
-              <a href="https://www.facebook.com/events/1625780564822041">
-              <FaLinkedin size={25} className="social-link" />
-              </a> 
+              <a href="https://www.linkedin.com/company/ubcwics/">
+                <FaLinkedin size={25} className="social-link" />
+              </a>
             </div>
           </div>
         </div>
@@ -300,7 +313,7 @@ export default function About() {
         </div>
         <div className="title">
           <Typography color="white" weight="bold" variant="h6">
-          Questions? Contact us.
+            Questions? Contact us.
           </Typography>
         </div>
       </div>

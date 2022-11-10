@@ -45,7 +45,7 @@ export default function Contact() {
   return (
     <>
       <NavBar />
-      <div className="centered-container">
+      <div className="page-starter-container">
         <gradient-large>Contact us</gradient-large>
         <SocialSideBar className="icons" />
       </div>
