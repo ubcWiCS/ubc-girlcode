@@ -153,7 +153,7 @@ export default function About() {
         </div>
         <br />
         <Typography color="white" inline="inline" variant="h4">
-          Aritzia’s values &nbsp;
+          Aritzia's &nbsp;
         </Typography>
         <Typography color="tan" inline="inline" variant="h4">
           values &nbsp;
