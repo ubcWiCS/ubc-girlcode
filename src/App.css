@@ -91,6 +91,10 @@ button1 a {
   text-align: right;
 }
 
+.align-right {
+  flex-direction: row-reverse;
+}
+
 .inner-text{
   margin: 0px 300px 0px 300px;
 }
@@ -173,6 +177,7 @@ button1 a {
   background-color: black;
   padding-top: 0px;
   padding-bottom: 0px;
+  align-items: flex-start !important;
 }
 
 .navbar-toggler{
@@ -183,7 +188,7 @@ button1 a {
   text-decoration: none; 
   margin: 10px;
   color: white !important;
-  padding: 10px;
+  padding: 30px 10px 20px 10px;
   float: right;
   font: Inter;
   font-weight: bold;

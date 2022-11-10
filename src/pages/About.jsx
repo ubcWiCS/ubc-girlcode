@@ -15,6 +15,8 @@ import wids from "../imgs/wids.svg";
 import valuesText from "../imgs/values-text.svg";
 
 import manyBubbles from "../imgs/many-bubbles-right.svg";
+import bubblesLeft2 from "../imgs/bubbles-left-3.svg";
+import bubblesRight from "../imgs/bubbles-right.svg";
 
 import "./about.css";
 
@@ -107,7 +109,7 @@ export default function About() {
 
       <div className="page-container-bubbles-left text-right grid-container">
         <div className="bubbles-grid-child">
-          <img src={bubblesLeft} alt="Aritzia" className="bubbles-left"></img>
+          <img src={bubblesLeft} alt="Aritzia" className="bubbles-left-partnership"></img>
         </div>
         <div className="partnership-text">
           <div>
@@ -163,6 +165,7 @@ export default function About() {
         <img src={valuesText} alt="values" className="values-svg"></img>
         <br />
         <br />
+        <br />
         <Typography color="white" inline="inline" variant="h4">
           Aritzia supports our &nbsp;
         </Typography>
@@ -180,6 +183,9 @@ export default function About() {
             values. This has positively impacted more than 445,000 women. &nbsp;
           </Typography>
         </div>
+        <br />
+        <br />
+        <br />
         <Typography color="white" inline="inline" variant="h4">
           Aritzia represents the &nbsp;
         </Typography>
@@ -209,11 +215,13 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="centre">
-        <div className="glass">
-          <gradient-large>Mission Statement</gradient-large>
+      <img src={bubblesRight} alt="Aritzia" className="bubbles-right"></img>
+      <div className="centered-child">
+        <div className="glass-med">
+          <gradient-small>Mission Statement</gradient-small>
           <br />
-          <Typography color="white" inline="inline" variant="h3">
+          <br />
+          <Typography color="white" inline="inline" variant="h6">
             girlCode's partnership with Aritzia allows us to nurture diversity
             through supporting women* in computer science and data science
             fields. By providing resources and empowering our community,
@@ -224,6 +232,7 @@ export default function About() {
           </Typography>
         </div>
       </div>
+      <img src={bubblesLeft2} alt="Aritzia" className="bubbles-left"></img>
       <div className="centered-container">
         <gradient-large>Prizes</gradient-large>
         <Typography color="white" variant="h3">
@@ -235,13 +244,14 @@ export default function About() {
         <br />
         <gradient-small>3rd Place</gradient-small>
         <br />
-        <Typography color="white" inline="inline" weight="bold" variant="h1">
+        <Typography color="white" inline="inline" weight="bold" variant="h4">
           And a prize for &nbsp;
         </Typography>
-        <Typography color="tan" inline="inline" weight="bold" variant="h1">
+        <Typography color="tan" inline="inline" weight="bold" variant="h4">
           best beginner hack &nbsp;
         </Typography>
       </div>
+   
       <div className="page-container">
         <div className="clubs-grid-container clubs-inner-text">
           <div className="text-left clubs-grid">
@@ -287,7 +297,7 @@ export default function About() {
               lasting connections with other women* in tech, and supporting each
               other as we progress through our time at UBC.
             </Typography>
-            <div className="clubs-socials">
+            <div className="clubs-socials align-right">
               <a href="https://www.instagram.com/ubcwics/">
                 <FaInstagram size={25} className="social-link" />
               </a>
@@ -303,7 +313,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="title">
+        <div className="title inner-text">
           <Typography color="white" weight="italic" variant="h6">
             *We understand that women may not reflect the identity of all
             people, and we welcome anyone to our club who is comfortable
@@ -311,7 +321,7 @@ export default function About() {
             women.
           </Typography>
         </div>
-        <div className="title">
+        <div className="centered-child">
           <Typography color="white" weight="bold" variant="h6">
             Questions? Contact us.
           </Typography>

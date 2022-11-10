@@ -13,8 +13,8 @@ export default function NavBar () {
           <img
             alt="logo"
             src={navbarLogo}
-            width="100"
-            height="100"
+            width="200"
+            height="150"
             className="d-inline-block align-top"
           />
           </Navbar.Brand>
