@@ -3,19 +3,16 @@ import * as React from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import SocialSideBar from "../components/SocialSideBar";
-import register from "../imgs/registerText.svg";
 
 export default function SignUp() {
   return (
     <>
       <NavBar />
-      <div className="regPageTitle">
+      <div className="page-starter-container">
         <div>
-          <img src={register} alt="register"></img>
+          <gradient-large>Register</gradient-large>
         </div>
-        <div className="regPageSocials">
-        <SocialSideBar className="reg-icons" />
-        </div>
+        <SocialSideBar className="icons" />
       </div>
       <div className="registerPageBody">
         <iframe

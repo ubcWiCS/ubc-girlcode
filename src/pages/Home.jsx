@@ -5,11 +5,27 @@ import Footer from "../components/Footer";
 import SocialSideBar from "../components/SocialSideBar";
 import girlCode from "../imgs/girlCodeText.svg";
 
+import bubblesVary from "../imgs/big-bubbles-rb.svg";
+import bubblesLeft2 from "../imgs/bubbles-left.svg";
+import bubblesLeft3 from "../imgs/bubbles-left-equal.svg";
+import bubblesRight2 from "../imgs/bubbles-right.svg";
+import bubblesLeft4 from "../imgs/left-spaced.svg";
+
 export default function Home() {
   return (
     <>
       <NavBar />
-      <div className="landingPage">
+      <div className="page-starter-container">
+        <img
+          src={bubblesVary}
+          alt="Aritzia"
+          className="home-starter-bubbles-right"
+        ></img>
+        <img
+          src={bubblesLeft3}
+          alt="Aritzia"
+          className="home-starter-bubbles-left"
+        ></img>
         <img src={girlCode} alt="girlcode"></img>
         <SocialSideBar className="icons" />
       </div>
@@ -28,6 +44,7 @@ export default function Home() {
             </button1>
           </paragraph>
         </div>
+        <img src={bubblesLeft2} alt="Aritzia" className="bubbles-left"></img>
         <div className="rightJustified">
           <gradientFont>24</gradientFont>
           <br />
@@ -54,6 +71,7 @@ export default function Home() {
             </button1>
           </div>
         </div>
+        <img src={bubblesRight2} alt="Aritzia" className="bubbles-right"></img>
         <div className="leftJustified">
           <paragraph>
             <gradientFont>23%</gradientFont> <br />
@@ -64,6 +82,7 @@ export default function Home() {
             possibilities).
           </paragraph>
         </div>
+        <img src={bubblesLeft4} alt="Aritzia" className="bubbles-left"></img>
         <div className="centre">
           <paragraph>
             {" "}
