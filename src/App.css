@@ -297,6 +297,23 @@ svg{
   text-decoration: none;
 }
 
+/* CONTACT FORM */
+
+.contact-container{
+  margin: 0px 300px 50px 300px;
+  background-color: #dddbe8;
+}
+
+.input-field{
+  background-color: white;
+  color: white;
+}
+
+.contact-button{
+  background-color: #dc9180 !important;
+  color: white;
+}
+
 /* RESPONSIVENESS */
 
 @media only screen and (max-width: 800px) {
