@@ -201,11 +201,6 @@ button1 a {
   color: transparent !important;
 }
 
-.nav-link button1 {
-  font-size: 16px;
-  padding: 7px 20px 7px 20px;
-}
-
 .navbar-logo{
   max-width: 200px;
   width:30%;
@@ -232,10 +227,11 @@ svg{
   color: white;
   text-decoration: none; 
   margin: 10px 10px 10px 10px;
+  
 }
 
 .social-link:hover{
-  color: #DC9180;
+  color: #bfb8e9;
   width: 30px;
 }
 
@@ -336,16 +332,34 @@ svg{
 /* CONTACT FORM */
 
 .contact-container{
-  margin: 0px 300px 50px 300px;
-  background-color: #dddbe8;
+  margin: 0px 300px 200px 300px;
+  color: transparent;
 }
 
 .input-field{
-  background-color: white;
-  color: white;
+  color: white !important;
+  border-radius: 10px;
+  background: linear-gradient(45deg, rgba(191, 184, 233, .3) 30%, rgba(142, 177, 223, .3));
+  background-color: rgba(255, 255, 255, .3);
+  box-shadow: inset 5px 5px 10px 0px rgba(255, 255, 255, .4), inset -5px -5px 10px 0px rgba(0, 0, 0, .4);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, .25) !important;
 }
 
+
 .contact-button{
+  border-radius: 100px !important;
+  background-image: linear-gradient(45deg, #dc9180, white);
+  background: linear-gradient(90deg, #bfb8e9, transparent) #8eb1df !important;
+  color: white;
+  padding: 10px 50px 10px 50px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.contact-button:hover{
   background-color: #dc9180 !important;
   color: white;
 }
