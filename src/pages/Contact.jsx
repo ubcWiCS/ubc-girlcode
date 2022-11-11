@@ -46,7 +46,7 @@ export default function Contact() {
     <>
       <NavBar />
       <div className="page-starter-container">
-        <gradient-large>Contact us</gradient-large>
+        <gradient-large>Contact Us</gradient-large>
         <SocialSideBar className="icons" />
       </div>
       <Container component="main" maxWidth="xs" className="contact-container">
