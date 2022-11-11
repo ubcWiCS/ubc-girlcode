@@ -128,6 +128,11 @@
     grid-template-columns: 100%;	
   }
 
+  .clubs-grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;	
+  }
+
   .clubs-grid-responsive{
     display: flex !important;
     align-items: center;
