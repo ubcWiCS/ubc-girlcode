@@ -187,7 +187,7 @@ button:hover {
 
 .home-starter-bubbles-left{
   position: absolute;
-  top: 140px;
+  top: 160px;
   left: 0px;
   max-width: 25%;
 }
@@ -341,7 +341,7 @@ svg{
 
 .footer-logo-club{
   width: 40%;
-  min-width: 70px;
+  min-width: 50px;
   padding: 0px 20px 0px 20px;
 }
 
@@ -429,6 +429,7 @@ svg{
 }
 
 .input-field{
+  position: absolute;
   color: white !important;
   border-radius: 10px;
   background: linear-gradient(45deg, rgba(191, 184, 233, .3) 30%, rgba(142, 177, 223, .3));
@@ -436,6 +437,7 @@ svg{
   box-shadow: inset 5px 5px 10px 0px rgba(255, 255, 255, .4), inset -5px -5px 10px 0px rgba(0, 0, 0, .4);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, .25) !important;
+  z-index: 1;
 }
 
 
