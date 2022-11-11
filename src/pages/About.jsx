@@ -266,7 +266,6 @@ export default function About() {
           best beginner hack &nbsp;
         </Typography>
       </div>
-
       <div className="page-container">
         <div className="clubs-grid-container clubs-inner-text">
           <div className="text-left clubs-grid">
@@ -324,9 +323,6 @@ export default function About() {
               </a>
               <a href="https://www.facebook.com/ubcwics">
                 <FaFacebook size={25} className="social-link" />
-              </a>
-              <a href="https://www.linkedin.com/company/ubcwics/">
-                <FaLinkedin size={25} className="social-link" />
               </a>
               <a href="https://www.linkedin.com/company/ubcwics/">
                 <FaLinkedin size={25} className="social-link" />
