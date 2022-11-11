@@ -1,6 +1,6 @@
 import { Navbar, Container, Nav } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
-import navbarLogo from "../imgs/girlcode.svg";
+import navbarLogo from "../imgs/girlCodeHeader.svg";
 
 import "../App.css";
 

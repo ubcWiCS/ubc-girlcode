@@ -6,13 +6,13 @@ import Typography from "../components/Typography";
 import wics from "../imgs/wics.svg";
 import wids from "../imgs/wids.svg";
 import ubc from "../imgs/ubc.svg";
-import aritzia from "../imgs/girlcode-aritzia.svg";
+import aritzia from "../imgs/girlCodeFooter.svg";
 
 export default function Footer() {
   return (
     <>
       <div className="footer-body">
-        <div className="footer-left-container">
+        <div className="footer-top-container">
           <img src={aritzia} alt="ubc girlcode" className="footer-logo"></img>
           <Typography color="white">
             Copyright © girlCode, 2022 | Code of Conduct | Privacy Policy

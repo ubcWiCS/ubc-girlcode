@@ -12,6 +12,9 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import SocialSideBar from "../components/SocialSideBar";
 
+import bubblesThree from "../imgs/ThreeRightBubbles.svg";
+import bubblesLeft from "../imgs/bubbles-left-3.svg";
+
 import "./contact.css";
 
 const SERVICE_ID = env.SERVICE_ID
@@ -48,6 +51,11 @@ export default function Contact() {
     <>
       <NavBar />
       <div className="page-starter-container">
+      <img
+          src={bubblesThree}
+          alt="Aritzia"
+          className="home-starter-bubbles-right"
+        ></img>
         <gradient-large>Contact Us</gradient-large>
         <SocialSideBar className="icons" />
       </div>
@@ -113,6 +121,11 @@ export default function Contact() {
           </Box>
         </Box>
       </Container>
+      <img
+          src={bubblesLeft}
+          alt="Aritzia"
+          className="footer-bubbles-left"
+        ></img>
       <Footer />
     </>
   );
