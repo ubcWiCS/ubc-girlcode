@@ -269,16 +269,16 @@ svg{
 }
 
 .footer-logo-club{
-  height: 60%;
-  width: 60%;
-  margin: none;
-  padding: none;
+  height: 50px;
+  width: 50px;
+  margin: 0px 10px 10px 10px;
 }
 
 .footer-clubs{
   height: 50px;
   display: flex;
-  justify-content: flex-end;
+  align-content: right;
+  margin-left: auto;
 }
 
 /* REGISTRATION PAGE */
