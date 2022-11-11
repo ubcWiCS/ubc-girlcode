@@ -1,6 +1,13 @@
 import * as React from "react";
+import { Link } from "react-router-dom";
 
-import { FaInstagram, FaFacebook, FaTiktok, FaLinkedin } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaFacebook,
+  FaTiktok,
+  FaLinkedin,
+  FaDiscord,
+} from "react-icons/fa";
 
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
@@ -25,7 +32,11 @@ export default function About() {
     <>
       <NavBar />
       <div className="page-starter-container">
-      <img src={manyBubbles} alt="Aritzia" className="starter-bubbles-right"></img>
+        <img
+          src={manyBubbles}
+          alt="Aritzia"
+          className="starter-bubbles-right"
+        ></img>
         <gradient-large>About girlCode</gradient-large>
         <SocialSideBar className="icons" />
       </div>
@@ -109,7 +120,11 @@ export default function About() {
 
       <div className="page-container-bubbles-left text-right grid-container">
         <div className="bubbles-grid-child">
-          <img src={bubblesLeft} alt="Aritzia" className="bubbles-left-partnership"></img>
+          <img
+            src={bubblesLeft}
+            alt="Aritzia"
+            className="bubbles-left-partnership"
+          ></img>
         </div>
         <div className="partnership-text">
           <div>
@@ -251,7 +266,7 @@ export default function About() {
           best beginner hack &nbsp;
         </Typography>
       </div>
-   
+
       <div className="page-container">
         <div className="clubs-grid-container clubs-inner-text">
           <div className="text-left clubs-grid">
@@ -270,11 +285,14 @@ export default function About() {
               <a href="https://www.instagram.com/widsubc/">
                 <FaInstagram size={25} className="social-link" />
               </a>
-              <a href="https://www.facebook.com/events/1625780564822041">
+              <a href="https://www.facebook.com/widsubc/">
                 <FaFacebook size={25} className="social-link" />
               </a>
               <a href="https://www.linkedin.com/company/widsubc/">
                 <FaLinkedin size={25} className="social-link" />
+              </a>
+              <a href="https://discord.com/invite/4jY6tjySxn">
+                <FaDiscord size={25} className="social-link" />
               </a>
             </div>
           </div>
@@ -301,14 +319,20 @@ export default function About() {
               <a href="https://www.instagram.com/ubcwics/">
                 <FaInstagram size={25} className="social-link" />
               </a>
-              <a href="https://www.tiktok.com/@girlcode.ubc?_t=8XCbykWu7OM&_r=1">
+              <a href="https://www.tiktok.com/@ubcwics">
                 <FaTiktok size={25} className="social-link" />
               </a>
-              <a href="https://www.facebook.com/events/1625780564822041">
+              <a href="https://www.facebook.com/ubcwics">
                 <FaFacebook size={25} className="social-link" />
               </a>
               <a href="https://www.linkedin.com/company/ubcwics/">
                 <FaLinkedin size={25} className="social-link" />
+              </a>
+              <a href="https://www.linkedin.com/company/ubcwics/">
+                <FaLinkedin size={25} className="social-link" />
+              </a>
+              <a href="https://discord.com/invite/z3P5c5VPm4">
+                <FaDiscord size={25} className="social-link" />
               </a>
             </div>
           </div>
@@ -322,9 +346,25 @@ export default function About() {
           </Typography>
         </div>
         <div className="centered-child">
-          <Typography color="white" weight="bold" variant="h6">
-            Questions? Contact us.
-          </Typography>
+          <Link as={Link} to="/contact" className="nav-link">
+            {" "}
+            <Typography
+              color="white"
+              inline="inline"
+              weight="bold"
+              variant="h6"
+            >
+              Questions? &nbsp;
+            </Typography>
+            <Typography
+              color="blue"
+              inline="inline"
+              weight="bold"
+              variant="h6"
+            >
+              Contact us.
+            </Typography>
+          </Link>
         </div>
       </div>
       <Footer />

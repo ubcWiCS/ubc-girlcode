@@ -1,5 +1,7 @@
 import * as React from "react";
+import { Link } from "react-router-dom";
 
+import Typography from "../components/Typography";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import SocialSideBar from "../components/SocialSideBar";
@@ -87,10 +89,25 @@ export default function Home() {
         </div>
         <img src={bubblesLeft4} alt="Aritzia" className="bubbles-left"></img>
         <div className="centre">
-          <paragraph>
+        <Link as={Link} to="/contact" className="nav-link">
             {" "}
-            Any Questions? <bold>Contact Us</bold>
-          </paragraph>
+            <Typography
+              color="white"
+              inline="inline"
+              weight="bold"
+              variant="h6"
+            >
+              Questions? &nbsp;
+            </Typography>
+            <Typography
+              color="blue"
+              inline="inline"
+              weight="bold"
+              variant="h6"
+            >
+              Contact us.
+            </Typography>
+          </Link>
         </div>
       </div>
       <Footer />
