@@ -10,6 +10,7 @@ import bubblesLeft2 from "../imgs/bubbles-left.svg";
 import bubblesLeft3 from "../imgs/bubbles-left-equal.svg";
 import bubblesRight2 from "../imgs/bubbles-right.svg";
 import bubblesLeft4 from "../imgs/left-spaced.svg";
+import glassBubble from "../imgs/glassBubble.svg";
 
 export default function Home() {
   return (
@@ -55,8 +56,10 @@ export default function Home() {
           </paragraph>
         </div>
         <div className="centre">
+        <img src={glassBubble} alt="Aritzia" className="glassBubble"></img>
           <div className="glass">
             <paragraph>
+            
               girlCode strives to <bold>ignite</bold> creativity,{" "}
               <bold>build</bold> friendships and <bold>empower</bold> the next
               generation of leaders in tech through building impactful
