@@ -549,6 +549,13 @@ svg{
   width: 50%;
 }
 
+.social-link {
+  float: right;
+  color: white;
+  text-decoration: none; 
+  margin: 10px 5px 10px 5px;
+}
+
 }
 
 @media only screen and (max-width: 1100px) {
