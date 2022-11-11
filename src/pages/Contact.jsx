@@ -12,6 +12,8 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import SocialSideBar from "../components/SocialSideBar";
 
+import "./contact.css";
+
 const SERVICE_ID = env.SERVICE_ID
 const TEMPLATE_ID = env.TEMPLATE_ID
 const PUBLIC_KEY = env.PUBLIC_KEY
