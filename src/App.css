@@ -1,38 +1,452 @@
-.App {
-  text-align: center;
+/* ELEMENT STYLES */
+
+body{
+  background-color: black;
+  font: Inter;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+gradientFont{
+  display: inline-block;
+  vertical-align: middle;
+  background-image: linear-gradient(45deg, #bfb8e9 30%, #8eb1df);
+  background-clip: text;
+  color: transparent;
+  font-size: 100px;
+  font-weight:900;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+purple {
+  color: #bfb8e9;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+blue {
+  color: #8eb1df;
+  font-weight: bold;
+}
+
+paragraph {
+  font-size: 20px;
+  line-height: 2;
+}
+
+bold {
+  font-weight: bold;
+}
+
+.glass {
+  max-width: 500px;
+  padding: 100px;
+  background: linear-gradient(45deg, rgba(191, 184, 233, .3) 30%, rgba(142, 177, 223, .3));
+  background-color: rgba(255, 255, 255, .2);
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, .25);
+  box-shadow: 0 0 10px 1px rgba(255, 255, 255, .2);
+  box-shadow: inset 5px 5px 10px 0px rgba(255, 255, 255, .4), inset -5px -5px 10px 0px rgba(0, 0, 0, .4);
+  backdrop-filter: blur(20px);
+}
+
+button1 {
+  border-radius: 100px;
+  background-image: linear-gradient(45deg, #dc9180 30%, white);
+  background: linear-gradient(90deg, #bfb8e9, transparent) #8eb1df;
+  color: white;
+  padding: 10px 50px 10px 50px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button1:hover {
+  background-color: #dc9180;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+button1 a {
+  color: white;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/*  PAGE STYLES */
+
+.title{
+  text-align: center;
+}
+
+.centered-container{
+  margin: 200px 50px 200px 50px;
+  text-align: center;
+  justify-content: center;
+}
+
+.page-container{
+  margin: 200px 50px 200px 50px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.align-right {
+  flex-direction: row-reverse;
+}
+
+.inner-text{
+  margin: 0px 300px 0px 300px;
+}
+
+.landingPage{
+  text-align: center;
+  height: 200px;
+  padding: 300px;
+}
+
+.landingPage img{
+  width: 30%;
+  min-width: 250px;
+}
+
+.content {
+  padding: 200px;
+  color: white;
+}
+
+.leftJustified {
+  width: 60%;
+  padding-bottom: 100px;
+}
+
+.rightJustified {
+  text-align: right;
+  padding-bottom: 100px;
+}
+
+.centre {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.page-starter-container{
+  margin: 100px 50px 100px 50px;
+  text-align: center;
+  justify-content: center;
+}
+
+.starter-bubbles-right{
+  position: absolute;
+  top: 100px;
+  right: 0px;
+}
+
+.home-starter-bubbles-right{
+  position: absolute;
+  top: 250px;
+  right: 0px;
+  max-width: 25%;
+}
+
+.home-starter-bubbles-left{
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  max-width: 25%;
+}
+
+.bubbles-left{
+  position: absolute;
+  left: 0px;
+  max-width: 25%;
+}
+
+.bubbles-right{
+  position: absolute;
+  right: 0px;
+  width: 30%;
+}
+
+/*  NAVIGATION */
+
+.navbar {
+  background-color: black;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  align-items: flex-start !important;
+}
+
+.navbar-toggler{
+  background-color: #DC9180 !important;
+}
+
+.nav-link {
+  text-decoration: none; 
+  margin: 10px;
+  color: white !important;
+  padding: 30px 10px 20px 10px;
+  float: right;
+  font: Inter;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  margin: 10px;
+  background-image: linear-gradient(45deg, #bfb8e9 30%, #8eb1df);
+  background-clip: text;
+  color: transparent !important;
+}
+
+.navbar-logo{
+  max-width: 200px;
+  width:30%;
+  top: 20px;
+  left: 20px;
+  position: absolute;
+}
+
+.icons{
+  position: absolute;
+  left: 0;
+  margin-left: 50px;
+  margin-top: -60px;
+}
+
+svg{
+  stroke: white !important;
+  fill: white !important;
+  width: 30px;
+}
+
+.social-link {
+  float: right;
+  color: white;
+  text-decoration: none; 
+  margin: 10px 10px 10px 10px;
+  
+}
+
+.social-link:hover{
+  color: #bfb8e9;
+  width: 30px;
+}
+
+.footer-body{
+  height: auto;
+  max-height: 200px !important;
+  padding: 10px;
+  background-color: #DC9180;
+  color: black;
+  display: flex !important;
+  flex-direction: row !important;
+  margin-top: auto !important;
+}
+
+.footer-left-container{
+  max-height: 200px !important;
+  width: 50%;
+}
+
+.footer-right-container{
+  max-height: 200px !important;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.footer-logo{
+  height: 60%;
+  width: 60%;
+}
+
+.footer-logo-club{
+  height: 50px;
+  width: 50px;
+  margin: 0px 10px 10px 10px;
+}
+
+.footer-clubs{
+  height: 50px;
+  display: flex;
+  align-content: right;
+  margin-left: auto;
+}
+
+/* REGISTRATION PAGE */
+
+.regPageTitle{
+  text-align: center;
+  height: 200px;
+  padding: 0px 300px 0px 300px;
+}
+
+.regPageSocials{
+  padding-top: 260px;
+}
+
+.regPageTitle img{
+  width: 30%;
+  min-width: 250px;
+}
+
+.reg-icons{
+  position: absolute;
+  left: 0;
+  margin-left: 50px;
+  margin-top: -100px;
+}
+
+.registerPageBody {
+  margin: 0px 0px 200px 0px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.reg-button {
+  border-radius: 100px;
+  background-image: linear-gradient(45deg, #dc9180 30%, white);
+  background: linear-gradient(90deg, #bfb8e9, transparent) #8eb1df;
+  color: white;
+  padding: 10px 50px 10px 50px;
+  font-size: 12px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.reg-button:hover {
+  background-color: #dc9180;
+  color: white;
+}
+
+.reg-button a {
+  color: white;
+  text-decoration: none;
+}
+
+/* CONTACT FORM */
+
+.contact-container{
+  margin: 0px 300px 200px 300px;
+  color: transparent;
+}
+
+.input-field{
+  color: white !important;
+  border-radius: 10px;
+  background: linear-gradient(45deg, rgba(191, 184, 233, .3) 30%, rgba(142, 177, 223, .3));
+  background-color: rgba(255, 255, 255, .3);
+  box-shadow: inset 5px 5px 10px 0px rgba(255, 255, 255, .4), inset -5px -5px 10px 0px rgba(0, 0, 0, .4);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, .25) !important;
+}
+
+
+.contact-button{
+  border-radius: 100px !important;
+  background-image: linear-gradient(45deg, #dc9180, white);
+  background: linear-gradient(90deg, #bfb8e9, transparent) #8eb1df !important;
+  color: white;
+  padding: 10px 50px 10px 50px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.contact-button:hover{
+  background-color: #dc9180 !important;
+  color: white;
+}
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 800px) {
+
+  .landingPage{
+    padding: 50px;
+    padding-top: 200px;
+    height: 500px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .content {
+    padding: 50px;
+  }
+  
+  .glass {
+    padding: 50px;
+    margin: 1px;
+  }
+
+  .icons{
+    width: 100%;
+    margin: 0px;
+    padding-top: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .vertical {
+    display: block;
+    padding: 30px;
+    transition: 0.3s;
+  }
+
+  .regPageTitle{
+    padding: 200px 50px 100px 50px;
+  }
+
+  .reg-icons{
+    width: 100%;
+    margin: 0px;
+    padding-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .registerPageBody{
+    margin-top: 100px;
+  }
+
+  .inner-text{
+    margin: 0px 20px 0px 20px;
+  }
+
+  .glass{
+    margin: 20px;
+  }
+
+  .page-starter-container{
+    margin-top: 70px;
+  }
+
+  .bubbles-left{
+    position: absolute;
+    left: 0px;
+    width: 30%;
+  }
+
+  .bubbles-right{
+    position: absolute;
+    right: 0px;
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .reg-icons{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
   }
 }
