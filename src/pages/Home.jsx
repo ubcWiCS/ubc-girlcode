@@ -5,6 +5,7 @@ import Typography from "../components/Typography";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import SocialSideBar from "../components/SocialSideBar";
+import Button from "@mui/material/Button";
 
 import bubblesVary from "../imgs/big-bubbles-rb.svg";
 import bubblesLeft2 from "../imgs/bubbles-left.svg";
@@ -41,9 +42,9 @@ export default function Home() {
             <br />
             <br />
             <br />
-            <button1>
-              <a href="/about">Learn More</a>
-            </button1>
+            <form action="/About" >
+		          <button> Learn More</button>
+            </form>
           </paragraph>
         </div>
         <img src={bubblesLeft2} alt="Aritzia" className="bubbles-left"></img>
@@ -70,9 +71,9 @@ export default function Home() {
             <br />
             <br />
             <br />
-            <button1>
-              <a href="/sign-up">Register Now</a>
-            </button1>
+            <form action="/register" >
+		          <button> Register Now</button>
+            </form>
           </div>
         </div>
         <img src={bubblesRight2} alt="Aritzia" className="bubbles-right"></img>
