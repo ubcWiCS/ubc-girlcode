@@ -111,7 +111,7 @@ export default function About() {
               Building
             </Typography>
             <Typography color="white">
-              Foster old and build new relationships alongside your meaningul
+              Foster old and build new relationships alongside your meaningful
               projects, and present to a panel of judges for prizes!
             </Typography>
           </div>
