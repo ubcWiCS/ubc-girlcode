@@ -34,6 +34,10 @@ bold {
   font-weight: bold;
 }
 
+a:hover{
+  color:white;
+}
+
 .glass {
   max-width: 500px;
   padding: 100px;
@@ -143,20 +147,32 @@ button1 a {
   position: absolute;
   top: 100px;
   right: 0px;
+  width: 90%;
+  min-width:600px;
 }
 
 .home-starter-bubbles-right{
   position: absolute;
-  top: 250px;
+  top: 300px;
   right: 0px;
   max-width: 25%;
+  z-index: 0;
 }
 
 .home-starter-bubbles-left{
   position: absolute;
-  top: 100px;
+  top: 140px;
   left: 0px;
   max-width: 25%;
+}
+
+.glassBubble {
+  position: absolute;
+  padding-left: 300px;
+  margin-top: -100px;
+  z-index: 0;
+  width: 30%;
+  min-width: 600px;
 }
 
 .bubbles-left{
@@ -168,8 +184,33 @@ button1 a {
 .bubbles-right{
   position: absolute;
   right: 0px;
-  width: 30%;
+  max-width: 30%;
 }
+
+.footer-bubbles-left{
+  position: absolute;
+  left: 0px;
+  max-width: 25%;
+  bottom: 0;
+  margin-bottom: -150px
+}
+
+.lower500{
+  margin-top: 500px;
+}
+
+.lower1000{
+  margin-top: 1000px;
+}
+
+.lower1500{
+  margin-top: 2000px;
+}
+
+.lower2500{
+  margin-top: 2800px;
+}
+
 
 /*  NAVIGATION */
 
@@ -181,7 +222,8 @@ button1 a {
 }
 
 .navbar-toggler{
-  background-color: #DC9180 !important;
+  margin-top: 20px;
+  background-image: linear-gradient(45deg, #bfb8e9 30%, #8eb1df);
 }
 
 .nav-link {
@@ -203,8 +245,8 @@ button1 a {
 
 .navbar-logo{
   max-width: 200px;
-  width:30%;
-  top: 20px;
+  width:20%;
+  top: 0px;
   left: 20px;
   position: absolute;
 }
@@ -226,7 +268,7 @@ svg{
   float: right;
   color: white;
   text-decoration: none; 
-  margin: 10px 10px 10px 10px;
+  margin: 10px 20px 10px 20px;
   
 }
 
@@ -236,18 +278,24 @@ svg{
 }
 
 .footer-body{
-  height: auto;
-  max-height: 200px !important;
+  position: absolute;
+  width: 100%;
   padding: 10px;
-  background-color: #DC9180;
-  color: black;
+  color: white;
   display: flex !important;
-  flex-direction: row !important;
+  flex-direction: column !important;
   margin-top: auto !important;
+  z-index: 1;
+  background: linear-gradient(45deg, rgba(191, 184, 233, .3) 30%, rgba(142, 177, 223, .3));
+  background-color: rgba(255, 255, 255, .2);
+  border: 1px solid rgba(255, 255, 255, .25);
+  box-shadow: 0 0 10px 1px rgba(255, 255, 255, .2);
+  box-shadow: inset 5px 5px 10px 0px rgba(255, 255, 255, .4), inset -5px -5px 10px 0px rgba(0, 0, 0, .4);
+  backdrop-filter: blur(20px);
+  
 }
 
 .footer-left-container{
-  max-height: 200px !important;
   width: 50%;
 }
 
@@ -257,24 +305,42 @@ svg{
   display: flex;
   flex-direction: column;
   text-align: right;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .footer-logo{
-  height: 60%;
-  width: 60%;
+  width: 20%;
+  min-width: 200px;
+  margin: -30px 0px -30px 0px;
 }
 
 .footer-logo-club{
-  height: 50px;
-  width: 50px;
-  margin: 0px 10px 10px 10px;
+  width: 40%;
+  min-width: 80px;
+  padding: 0px 20px 0px 20px;
 }
 
 .footer-clubs{
-  height: 50px;
+  width: 40%;
   display: flex;
-  align-content: right;
-  margin-left: auto;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+}
+
+.footer-top-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.footer-bottom-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 /* REGISTRATION PAGE */
@@ -302,10 +368,12 @@ svg{
 }
 
 .registerPageBody {
+  position: relative;
   margin: 0px 0px 200px 0px;
   text-align: center;
   display: flex;
   justify-content: center;
+  z-index: 2;
 }
 
 .reg-button {
@@ -363,6 +431,8 @@ svg{
   background-color: #dc9180 !important;
   color: white;
 }
+
+
 
 /* RESPONSIVENESS */
 
@@ -431,12 +501,14 @@ svg{
     position: absolute;
     left: 0px;
     width: 30%;
+    z-index:0;
   }
 
   .bubbles-right{
     position: absolute;
     right: 0px;
     width: 30%;
+    z-index:0;
   }
 }
 
