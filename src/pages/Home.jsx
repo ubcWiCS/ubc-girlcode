@@ -5,7 +5,6 @@ import Typography from "../components/Typography";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import SocialSideBar from "../components/SocialSideBar";
-import girlCode from "../imgs/girlCodeText.svg";
 
 import bubblesVary from "../imgs/big-bubbles-rb.svg";
 import bubblesLeft2 from "../imgs/bubbles-left.svg";
@@ -29,7 +28,7 @@ export default function Home() {
           alt="Aritzia"
           className="home-starter-bubbles-left"
         ></img>
-        <img src={girlCode} alt="girlcode"></img>
+        <gradient-large>girlCode</gradient-large>
         <SocialSideBar className="icons" />
       </div>
       <div className="content">
