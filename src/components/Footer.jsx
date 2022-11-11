@@ -22,7 +22,7 @@ export default function Footer() {
               <FaFacebook size={25} className="footer-logo-social" />
             </a>
             <a
-              href="https://www.instagram.com/girlcode.ubc/"
+              href="https://www.tiktok.com/@girlcode.ubc?_t=8XCbykWu7OM&_r=1"
               className="social-link"
             >
               <FaTiktok size={25} className="footer-logo-social" />
