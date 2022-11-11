@@ -15,6 +15,8 @@ import SocialSideBar from "../components/SocialSideBar";
 import bubblesThree from "../imgs/ThreeRightBubbles.svg";
 import bubblesLeft from "../imgs/bubbles-left-3.svg";
 
+import "./contact.css";
+
 const SERVICE_ID = env.SERVICE_ID
 const TEMPLATE_ID = env.TEMPLATE_ID
 const PUBLIC_KEY = env.PUBLIC_KEY
