@@ -316,31 +316,16 @@ svg{
 }
 
 .footer-logo-club{
-  width: 40%;
-  min-width: 80px;
-  padding: 0px 20px 0px 20px;
+  height: 50px;
+  width: 50px;
+  margin: 0px 10px 10px 10px;
 }
 
 .footer-clubs{
   width: 40%;
   display: flex;
-  justify-content: flex-end;
-  padding-bottom: 20px;
-}
-
-.footer-top-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-.footer-bottom-container{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
+  align-content: right;
+  margin-left: auto;
 }
 
 /* REGISTRATION PAGE */

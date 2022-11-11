@@ -14,6 +14,30 @@ export default function Footer() {
       <div className="footer-body">
         <div className="footer-top-container">
           <img src={aritzia} alt="ubc girlcode" className="footer-logo"></img>
+          <Typography color="white">
+            Copyright © girlCode, 2022 | Code of Conduct | Privacy Policy
+          </Typography>
+        </div>
+        <div className="footer-right-container">
+          <span className="footer-clubs">
+            <img
+              src={ubc}
+              alt="ubc girlcode"
+              className="footer-logo-club"
+            ></img>
+            <img
+              src={wids}
+              alt="ubc girlcode"
+              className="footer-logo-club"
+            ></img>
+            <a href="https://ubcwics.com/">
+              <img
+                src={wics}
+                alt="ubc girlcode"
+                className="footer-logo-club"
+              ></img>
+            </a>
+          </span>
           <span>
             <a
               href="https://www.instagram.com/girlcode.ubc/"
@@ -34,38 +58,7 @@ export default function Footer() {
               <FaTiktok size={25} className="footer-logo-social" />
             </a>
           </span>
-        </div>
-        <div className="footer-bottom-container">
-          <div className="footer-left-container">
-            <Typography
-              color="white"
-              component="p"
-              variant="caption"
-              gutterBottom={false}
-            >
-              Copyright © girlCode, 2022 | Code of Conduct | Privacy Policy
-            </Typography>
-          </div>
-          <div className="footer-right-container">
-            <span className="footer-clubs">
-              <img
-                src={ubc}
-                alt="ubc girlcode"
-                className="footer-logo-club"
-              ></img>
-              <img
-                src={wics}
-                alt="ubc girlcode"
-                className="footer-logo-club"
-              ></img>
-              <img
-                src={wids}
-                alt="ubc girlcode"
-                className="footer-logo-club"
-              ></img>
-            </span>
-            <Typography>hello@girlcode.com</Typography>
-          </div>
+          <Typography color="white">hello@girlcode.com</Typography>
         </div>
       </div>
     </>
