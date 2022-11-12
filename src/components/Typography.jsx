@@ -41,7 +41,7 @@ export default function Typography({
             color: #bfb8e9;
           }
           .tan {
-            color: #dc9180;
+            color: #D6AFD4;
           }
           .white {
             color: #ffffff;
