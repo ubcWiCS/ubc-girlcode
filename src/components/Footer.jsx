@@ -15,6 +15,9 @@ export default function Footer() {
         <div className="footer-top-container">
           <img src={aritzia} alt="ubc girlcode" className="footer-logo"></img>
           <span>
+            <a href="https://www.linkedin.com/company/ubc-girlcode/">
+              <FaLinkedin size={25} className="social-link" />
+            </a>
             <a
               href="https://www.facebook.com/events/1625780564822041"
               className="social-link"
