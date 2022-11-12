@@ -20,7 +20,7 @@ export default function SignUp() {
         </div>
         <SocialSideBar className="icons" />
         
-        <img src={bubblesRight} alt="Aritzia" className="bubbles-right"></img>
+        <img src={bubblesRight} alt="Aritzia" className="bubbles-right registerRight"></img>
         <img src={bubblesLeft3} alt="Aritzia" className="bubbles-left lower500"></img>
         <img src={manyBubbles} alt="Aritzia" className="bubbles-right lower1000"></img>
         <img src={bubblesLeft2} alt="Aritzia" className="bubbles-left lower1500"></img>

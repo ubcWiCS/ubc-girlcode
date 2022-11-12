@@ -4,7 +4,7 @@
 <circle r="163" transform="matrix(1 0 0 -1 29 522)" fill="url(#paint2_linear_276_1062)"/>
 <defs>
 <linearGradient id="paint0_linear_276_1062" x1="-47.3096" y1="93.6231" x2="250.811" y2="9.86607" gradientUnits="userSpaceOnUse">
-<stop stop-color="#DC9180"/>
+<stop stop-color="#D6AFD4"/>
 <stop offset="1" stop-color="white"/>
 </linearGradient>
 <linearGradient id="paint1_linear_276_1062" x1="-101.523" y1="206.218" x2="540.609" y2="30.4569" gradientUnits="userSpaceOnUse">
@@ -12,7 +12,7 @@
 <stop offset="1" stop-color="#8EB1DF"/>
 </linearGradient>
 <linearGradient id="paint2_linear_276_1062" x1="-66.1929" y1="134.454" x2="352.477" y2="19.8579" gradientUnits="userSpaceOnUse">
-<stop stop-color="#DC9180"/>
+<stop stop-color="#D6AFD4"/>
 <stop offset="1" stop-color="white"/>
 </linearGradient>
 </defs>
