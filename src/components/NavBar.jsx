@@ -24,7 +24,7 @@ export default function NavBar () {
             <Nav.Link as={NavLink} to="/" className="nav-link">Home</Nav.Link>
             <Nav.Link as={NavLink} to="/about" className="nav-link">About</Nav.Link>
             <Nav.Link as={NavLink} to="/contact" className="nav-link">Contact</Nav.Link>
-            <Nav.Link as={NavLink} to="/register" className="nav-link">Register Now</Nav.Link>
+            <Nav as={NavLink} to="/register" className="nav-button">Register Now</Nav>
           </Nav>
         </Navbar.Collapse>
       </Container>
