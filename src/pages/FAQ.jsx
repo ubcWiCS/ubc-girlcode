@@ -12,7 +12,7 @@ export default function FAQ() {
       <NavBar />
       <div className="page-starter-container">
         <div>
-          <gradient-large>Frequently Asked Questions</gradient-large>
+          <gradient-small>Frequently Asked Questions</gradient-small>
         </div>
         <SocialSideBar className="icons" />
       </div>
