@@ -26,7 +26,6 @@ export default function FAQ() {
             Contact us.
           </Typography>
         </Link>
-
         <br />
         <br />
         <Typography color="purple" weight="bold">

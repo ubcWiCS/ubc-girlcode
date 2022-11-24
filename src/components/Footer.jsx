@@ -67,7 +67,7 @@ export default function Footer() {
                 className="footer-logo-club"
               ></img>
             </span>
-            <Typography>hello@girlcode.com</Typography>
+            <Typography>hello@ubcgirlcode.com</Typography>
           </div>
         </div>
       </div>
