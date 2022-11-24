@@ -5,7 +5,6 @@ import Typography from "../components/Typography";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import SocialSideBar from "../components/SocialSideBar";
-import Button from "@mui/material/Button";
 
 import bubblesVary from "../imgs/big-bubbles-rb.svg";
 import bubblesLeft2 from "../imgs/bubbles-left.svg";

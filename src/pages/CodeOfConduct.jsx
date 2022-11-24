@@ -5,12 +5,8 @@ import Footer from "../components/Footer";
 import SocialSideBar from "../components/SocialSideBar";
 import Typography from "../components/Typography";
 
-import bubblesVary from "../imgs/big-bubbles-rb.svg";
 import bubblesLeft2 from "../imgs/bubbles-left-2.svg";
-import bubblesLeft3 from "../imgs/bubbles-left-equal.svg";
 import bubblesRight2 from "../imgs/big-bubbles-rb.svg";
-import bubblesLeft4 from "../imgs/left-spaced.svg";
-import glassBubble from "../imgs/glassBubble.svg";
 
 export default function CodeOfConduct() {
   return (
