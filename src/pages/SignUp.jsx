@@ -3,12 +3,12 @@ import * as React from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import SocialSideBar from "../components/SocialSideBar";
+import Typography from "../components/Typography";
 
 import bubblesLeft3 from "../imgs/bubbles-left-2.svg";
 import manyBubbles from "../imgs/many-bubbles-right.svg";
 import bubblesLeft2 from "../imgs/bubbles-left-3.svg";
 import bubblesRight from "../imgs/bubbles-right.svg";
-import bigBubbles from "../imgs/big-bubbles-rb.svg";
 
 export default function SignUp() {
   return (
@@ -17,6 +17,10 @@ export default function SignUp() {
       <div className="page-starter-container">
         <div>
           <gradient-large>Register</gradient-large>
+          <br></br>
+          <Typography color="white">
+          Registration closes Nov 25th at 11:59pm
+          </Typography>
         </div>
         <SocialSideBar className="icons" />
         

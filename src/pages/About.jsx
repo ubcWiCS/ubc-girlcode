@@ -76,6 +76,7 @@ export default function About() {
 
       <div className="centered-container">
         <gradient-large>Learn, Build, Connect</gradient-large>
+        <br />
         <div className="grid-container">
           <div className="glass-small grid-child">
             <Typography color="tan" weight="bold" variant="h1">
@@ -145,7 +146,7 @@ export default function About() {
               weight="bold"
               variant="h2"
             >
-              with &nbsp;
+              with
             </Typography>
             <br />
             <img
@@ -153,6 +154,8 @@ export default function About() {
               alt="Aritzia"
               className="about-aritzia-logo"
             ></img>
+             <br />
+             
             <Typography color="white">
               Aritzia is a Canadian women's fashion brand founded in Vancouver,
               British Columbia in 1984. Aritzia sells a variety of lifestyle
