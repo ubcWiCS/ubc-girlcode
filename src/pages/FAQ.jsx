@@ -38,7 +38,7 @@ export default function FAQ() {
           When will we find out if we are accepted?
         </Typography>
         <Typography color="white">
-          We hope to let participants know by mid december.
+          We hope to let participants know by mid December.
         </Typography>
         <br />
         <Typography color="purple" weight="bold">
@@ -52,14 +52,14 @@ export default function FAQ() {
         <Typography color="purple" weight="bold">
           Will food be provided?
         </Typography>
-        <Typography color="white">Yes! girlCode is fully catepurple</Typography>
+        <Typography color="white">Yes! girlCode is fully catered</Typography>
         <br />
         <Typography color="purple" weight="bold">
           Can I apply if I am not a UBC student?
         </Typography>
         <Typography color="white">
           At this time registration is only open to UBC students due to high
-          demand
+          demand.
         </Typography>
         <br />
         <Typography color="purple" weight="bold">
