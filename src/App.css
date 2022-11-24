@@ -64,6 +64,11 @@ bold {
   font-weight: bold;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
 a:hover{
   color:white;
 }
@@ -82,7 +87,7 @@ a:hover{
 
 button {
   border-radius: 100px;
-  background-image: linear-gradient(45deg, #dc9180 30%, white);
+  background-image: linear-gradient(45deg, #D6AFD4 30%, white);
   background: linear-gradient(90deg, #bfb8e9, transparent) #8eb1df;
   color: white;
   padding: 5px 50px 5px 50px;
@@ -93,7 +98,7 @@ button {
 }
 
 button:hover {
-  background-color: #dc9180;
+  background-color: #D6AFD4;
   color: white;
 }
 
@@ -173,8 +178,8 @@ button:hover {
   position: absolute;
   top: 500px;
   right: 0px;
-  width: 90%;
-  min-width:600px;
+  width: 20%;
+  min-width:60px;
 }
 
 .home-starter-bubbles-right{
@@ -187,9 +192,10 @@ button:hover {
 
 .home-starter-bubbles-left{
   position: absolute;
-  top: 160px;
+  top: 150px;
   left: 0px;
   max-width: 25%;
+  z-index: 0;
 }
 
 .glassBubble {
@@ -208,7 +214,7 @@ button:hover {
 .bubbles-right{
   position: absolute;
   right: 0px;
-  max-width: 30%;
+  max-width: 25%;
 }
 
 .footer-bubbles-left{
@@ -217,6 +223,11 @@ button:hover {
   max-width: 25%;
   bottom: 0;
   margin-bottom: -150px
+}
+
+.registerRight{
+  margin-top: -180px;
+  max-width: 24%;
 }
 
 .lower500{
@@ -235,6 +246,12 @@ button:hover {
   margin-top: 2800px;
 }
 
+.section{
+  position: relative;
+  padding-bottom:100px;
+  z-index: 1;
+}
+
 
 /*  NAVIGATION */
 
@@ -251,20 +268,36 @@ button:hover {
 }
 
 .nav-link {
-  text-decoration: none; 
   margin: 10px;
   color: white !important;
   padding: 30px 10px 20px 10px;
   float: right;
   font: Inter;
   font-weight: bold;
+  z-index: 1;
 }
 
 .nav-link:hover {
-  margin: 10px;
   background-image: linear-gradient(45deg, #bfb8e9 30%, #8eb1df);
   background-clip: text;
   color: transparent !important;
+}
+
+.nav-button{
+  border-radius: 100px !important;
+  background-image: linear-gradient(45deg, #D6AFD4, white);
+  background: linear-gradient(90deg, #bfb8e9, transparent) #8eb1df !important;
+  margin: 30px 10px 20px 10px;
+  padding: 10px 20px 10px 20px;
+  color: white;
+  transition: 0.3s;
+  font-weight: bolder;
+  max-width: 150px;
+}
+
+.nav-button:hover {
+  background-color: #D6AFD4 !important;
+  color: white !important;
 }
 
 .navbar-logo{
@@ -291,7 +324,6 @@ svg{
 .social-link {
   float: right;
   color: white;
-  text-decoration: none; 
   margin: 10px 20px 10px 20px;
   
 }
@@ -402,7 +434,7 @@ svg{
 
 .reg-button {
   border-radius: 100px;
-  background-image: linear-gradient(45deg, #dc9180 30%, white);
+  background-image: linear-gradient(45deg, #D6AFD4 30%, white);
   background: linear-gradient(90deg, #bfb8e9, transparent) #8eb1df;
   color: white;
   padding: 10px 50px 10px 50px;
@@ -412,13 +444,12 @@ svg{
 }
 
 .reg-button:hover {
-  background-color: #dc9180;
+  background-color: #D6AFD4;
   color: white;
 }
 
 .reg-button a {
   color: white;
-  text-decoration: none;
 }
 
 /* CONTACT FORM */
@@ -443,7 +474,7 @@ svg{
 
 .contact-button{
   border-radius: 100px !important;
-  background-image: linear-gradient(45deg, #dc9180, white);
+  background-image: linear-gradient(45deg, #D6AFD4, white);
   background: linear-gradient(90deg, #bfb8e9, transparent) #8eb1df !important;
   color: white;
   padding: 10px 50px 10px 50px;
@@ -454,7 +485,7 @@ svg{
 }
 
 .contact-button:hover{
-  background-color: #dc9180 !important;
+  background-color: #D6AFD4 !important;
   color: white;
 }
 
