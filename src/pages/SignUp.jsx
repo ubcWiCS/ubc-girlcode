@@ -17,28 +17,23 @@ export default function SignUp() {
       <div className="page-starter-container">
         <div>
           <gradient-large>Register</gradient-large>
-          <br></br>
-          <Typography color="white">
-          Registration closes Nov 25th at 11:59pm
-          </Typography>
         </div>
         <SocialSideBar className="icons" />
         
         <img src={bubblesRight} alt="Aritzia" className="bubbles-right registerRight"></img>
-        <img src={bubblesLeft3} alt="Aritzia" className="bubbles-left lower500"></img>
-        <img src={manyBubbles} alt="Aritzia" className="bubbles-right lower1000"></img>
-        <img src={bubblesLeft2} alt="Aritzia" className="bubbles-left lower1500"></img>
-        <img src={bubblesRight} alt="Aritzia" className="bubbles-right lower2500"></img>
       </div>
-      <div className="registerPageBody">
-        <iframe
-          title="qualtrics"
-          src="https://ubc.ca1.qualtrics.com/jfe/form/SV_bO6taMrJnPF81kG"
-          width="800px"
-          height= "3000"
-          frameBorder="0"
-        ></iframe>
+      <div className = "centered-no-padding">
+        <div className="about-responsive page-container">
+          <Typography color="white" weight="bold" variant="h1">
+              Registration is now closed. 
+          </Typography>
+          <br></br>
+          <Typography color="white">
+          Looking forward to seeing you in 2023!
+          </Typography>
+        </div>
       </div>
+      
       <Footer />
     </>
   );
