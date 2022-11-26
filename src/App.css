@@ -296,7 +296,7 @@ button:hover {
   color: white;
   transition: 0.3s;
   font-weight: bolder;
-  max-width: 150px;
+  max-width: 105px;
 }
 
 .nav-button:hover {
