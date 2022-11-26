@@ -168,6 +168,10 @@ button:hover {
   justify-content: center;
 }
 
+.centered-no-padding {
+  text-align: center;
+}
+
 .page-starter-container{
   margin: 100px 50px 100px 50px;
   text-align: center;

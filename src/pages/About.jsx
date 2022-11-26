@@ -43,32 +43,35 @@ export default function About() {
       <div className="inner-text">
         <div className="about-responsive page-container ">
           <gradient-medium>What&nbsp; &nbsp; &nbsp;</gradient-medium>
-          <Typography color="white" inline="inline" weight="bold" variant="h1">
+          <Typography color="white" inline="inline" weight="bold" variant="h3">
             24-hour &nbsp;
           </Typography>
-          <Typography color="tan" inline="inline" weight="bold" variant="h1">
+          <Typography color="tan" inline="inline" weight="bold" variant="h3">
             in-person &nbsp;
           </Typography>
-          <Typography color="white" inline="inline" weight="bold" variant="h1">
+          <Typography color="white" inline="inline" weight="bold" variant="h3">
             hackathon &nbsp;
           </Typography>
           <br />
           <gradient-medium>Where &nbsp;</gradient-medium>
-          <Typography color="white" inline="inline" weight="bold" variant="h1">
+          <Typography color="white" inline="inline" weight="bold" variant="h3">
             hosted at &nbsp;
           </Typography>
-          <Typography color="tan" inline="inline" weight="bold" variant="h1">
+          <Typography color="tan" inline="inline" weight="bold" variant="h3">
+            Abdula Ladha Science Student Centre&nbsp;
+          </Typography>
+          <Typography color="white" inline="inline" weight="bold" variant="h3">
             UBC &nbsp;
           </Typography>
           <br />
           <gradient-medium>When &nbsp; &nbsp;</gradient-medium>
-          <Typography color="white" inline="inline" weight="bold" variant="h1">
+          <Typography color="white" inline="inline" weight="bold" variant="h3">
             from &nbsp;
           </Typography>
-          <Typography color="tan" inline="inline" weight="bold" variant="h1">
-            January 13th-14th, &nbsp;
+          <Typography color="tan" inline="inline" weight="bold" variant="h3">
+            January 13th 3:00pm-14th, &nbsp;
           </Typography>
-          <Typography color="white" inline="inline" weight="bold" variant="h1">
+          <Typography color="white" inline="inline" weight="bold" variant="h3">
             2023 &nbsp;
           </Typography>
         </div>
