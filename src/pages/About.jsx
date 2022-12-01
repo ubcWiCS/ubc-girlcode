@@ -13,6 +13,7 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import SocialSideBar from "../components/SocialSideBar";
 import Typography from "../components/Typography";
+import TeamCard from "../components/TeamCard";
 
 import aritzia from "../imgs/aritzia.svg";
 import bubblesLeft from "../imgs/bubbles-left.svg";
@@ -24,6 +25,31 @@ import valuesText from "../imgs/values-text.svg";
 import manyBubbles from "../imgs/many-bubbles-right.svg";
 import bubblesLeft2 from "../imgs/bubbles-left-3.svg";
 import bubblesRight from "../imgs/bubbles-right.svg";
+
+import angie from "../imgs/team/angie.jpg";
+import carina from "../imgs/team/carina.JPG";
+import chloe from "../imgs/team/chloe.png";
+import clara from "../imgs/team/clara.jpg";
+import crystal from "../imgs/team/crystal.jpg";
+import emiko from "../imgs/team/emiko@4x.png";
+import hannah from "../imgs/team/hannah.png";
+import imogene from "../imgs/team/imogene.jpg";
+import ireena from "../imgs/team/ireena.jpeg";
+import irisC from "../imgs/team/irisC.png";
+import irisX from "../imgs/team/irisX.png";
+import jasvir from "../imgs/team/jasvir.jpeg";
+import karan from "../imgs/team/karan.jpg";
+import lena from "../imgs/team/lena.jpeg";
+import linh from "../imgs/team/linh.png";
+import moira from "../imgs/team/moira@4x.png";
+import natacha from "../imgs/team/natacha.jpeg";
+import sandra from "../imgs/team/sandra.jpg";
+import sarah from "../imgs/team/sarah.png";
+import steph from "../imgs/team/steph.jpg";
+import tara from "../imgs/team/tara@4x.png";
+import yeojun from "../imgs/team/yeojun.jpeg";
+
+
 
 import "./about.css";
 
@@ -343,6 +369,78 @@ export default function About() {
             participating in an environment that celebrates the experiences of
             women.
           </Typography>
+        </div>
+        
+        <div className="centered-team">
+        <gradient-large>Our Team</gradient-large>
+          <div className = "team-grid-container">
+            <TeamCard name = "Hannah Martin" imageUrl = {hannah} email = "pleasework@gmail.com"
+            position = "Co-Founder" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+
+            <TeamCard name = "Sandra Radic" imageUrl = {sandra} email = "temp@gmail.com"
+            position = "Co-Founder" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+
+            <TeamCard name = "Yeojun Han" imageUrl = {yeojun} email = "pleasework@gmail.com"
+            position = "Finance" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+
+            <TeamCard name = "Moira Renata" imageUrl = {moira} email = "pleasework@gmail.com"
+            position = "Finance" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+
+            <TeamCard name = "Sarah Wong" imageUrl = {sarah} email = "pleasework@gmail.com"
+            position = "Merch" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+
+            <TeamCard name = "Carina Tze" imageUrl = {carina} email = "pleasework@gmail.com"
+            position = "Swag" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+
+            <TeamCard name = "Chloe Curry" imageUrl = {chloe} email = "pleasework@gmail.com"
+            position = "Swag" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+
+            <TeamCard name = "Imo McDonald" imageUrl = {imogene} email = "pleasework@gmail.com"
+            position = "Webmaster" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+
+            <TeamCard name = "Lena Wang" imageUrl = {lena} email = "pleasework@gmail.com"
+            position = "Webmaster" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+
+            <TeamCard name = "Jasvir Sandhu" imageUrl = {jasvir} email = "pleasework@gmail.com"
+            position = "Selection Committee" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+
+            <TeamCard name = "Iris Xu" imageUrl = {irisX} email = "pleasework@gmail.com"
+            position = "Selection Committee" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+
+            <TeamCard name = "Tara Ubovic" imageUrl = {tara} email = "pleasework@gmail.com"
+            position = "Admin" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+
+            <TeamCard name = "Natacha Bailly" imageUrl = {natacha} email = "pleasework@gmail.com"
+            position = "Events" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+
+            <TeamCard name = "Karan Chick" imageUrl = {karan} email = "pleasework@gmail.com"
+            position = "Events" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+
+            <TeamCard name = "Crystal Zhao" imageUrl = {crystal} email = "pleasework@gmail.com"
+            position = "Events" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+
+            <TeamCard name = "Stephanie Liu" imageUrl = {steph} email = "pleasework@gmail.com"
+            position = "Outreach" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+
+            <TeamCard name = "Angie Wu Guo" imageUrl = {angie} email = "pleasework@gmail.com"
+            position = "Marketing Lead" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+
+            <TeamCard name = "Emiko Araki" imageUrl = {emiko} email = "pleasework@gmail.com"
+            position = "Social Media" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+
+            <TeamCard name = "Ireena Baro" imageUrl = {ireena} email = "pleasework@gmail.com"
+            position = "Designer" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+
+            <TeamCard name = "Iris Caglayan" imageUrl = {irisC} email = "pleasework@gmail.com"
+            position = "TikTok" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+
+            <TeamCard name = "Linh Trinh" imageUrl = {linh} email = "pleasework@gmail.com"
+            position = "Marketing" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+
+            <TeamCard name = "Clara Park" imageUrl = {clara} email = "pleasework@gmail.com"
+            position = "External Executive" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+            
+          </div>
         </div>
         <div className="centered-child">
           <Link as={Link} to="/contact" className="nav-link">

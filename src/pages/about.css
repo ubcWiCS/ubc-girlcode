@@ -41,6 +41,21 @@
   align-content: center;
 }
 
+.team-grid-container{
+  margin: 200px 50px 200px 50px;
+  display: inline-grid;
+  grid-template-columns: 22% 22% 22% 22%;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
+.centered-team{
+  margin: 200px 50px 200px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .bubbles-grid-child{
   display: flex;
 }
@@ -152,11 +167,17 @@
     min-width: 100px;
     max-width: 200px;
   }
+
 }
 
 @media only screen and (max-width: 1200px) {
 
   .clubs-inner-text{
     margin: 0px 0px 0px 0px;
+  }
+
+  .team-grid-container{
+    grid-template-columns: auto;
+    margin: 200px 10px 200px 10px;
   }
 }
