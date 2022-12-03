@@ -374,71 +374,71 @@ export default function About() {
         <div className="centered-team">
         <gradient-large>Our Team</gradient-large>
           <div className = "team-grid-container">
-            <TeamCard name = "Hannah Martin" imageUrl = {hannah} email = "pleasework@gmail.com"
-            position = "Co-Founder" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+            <TeamCard name = "Hannah Martin" imageUrl = {hannah}
+            position = "Co-Founder" linkedin = "https://www.linkedin.com/in/hannah-martin11"/>
 
-            <TeamCard name = "Sandra Radic" imageUrl = {sandra} email = "temp@gmail.com"
-            position = "Co-Founder" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+            <TeamCard name = "Sandra Radic" imageUrl = {sandra}
+            position = "Co-Founder" linkedin = "https://www.linkedin.com/in/sandraradic/"/>
 
-            <TeamCard name = "Yeojun Han" imageUrl = {yeojun} email = "pleasework@gmail.com"
-            position = "Finance" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+            <TeamCard name = "Yeojun Han" imageUrl = {yeojun}
+            position = "Finance" linkedin = ""/>
 
-            <TeamCard name = "Moira Renata" imageUrl = {moira} email = "pleasework@gmail.com"
-            position = "Finance" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+            <TeamCard name = "Moira Renata" imageUrl = {moira}
+            position = "Finance" linkedin = ""/>
 
-            <TeamCard name = "Sarah Wong" imageUrl = {sarah} email = "pleasework@gmail.com"
-            position = "Merch" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+            <TeamCard name = "Sarah Wong" imageUrl = {sarah}
+            position = "Merch" linkedin = "https://www.linkedin.com/in/sarah-ashley-wong/"/>
 
-            <TeamCard name = "Carina Tze" imageUrl = {carina} email = "pleasework@gmail.com"
-            position = "Swag" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+            <TeamCard name = "Carina Tze" imageUrl = {carina}
+            position = "Swag" linkedin = ""/>
 
-            <TeamCard name = "Chloe Curry" imageUrl = {chloe} email = "pleasework@gmail.com"
-            position = "Swag" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+            <TeamCard name = "Chloe Curry" imageUrl = {chloe}
+            position = "Swag" linkedin = ""/>
 
-            <TeamCard name = "Imo McDonald" imageUrl = {imogene} email = "pleasework@gmail.com"
-            position = "Webmaster" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+            <TeamCard name = "Imo McDonald" imageUrl = {imogene}
+            position = "Webmaster" linkedin = ""/>
 
-            <TeamCard name = "Lena Wang" imageUrl = {lena} email = "pleasework@gmail.com"
-            position = "Webmaster" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+            <TeamCard name = "Lena Wang" imageUrl = {lena} 
+            position = "Webmaster" linkedin = "https://www.linkedin.com/in/lenawang/"/>
 
-            <TeamCard name = "Jasvir Sandhu" imageUrl = {jasvir} email = "pleasework@gmail.com"
-            position = "Selection Committee" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+            <TeamCard name = "Jasvir Sandhu" imageUrl = {jasvir}
+            position = "Selection Committee" linkedin = ""/>
 
-            <TeamCard name = "Iris Xu" imageUrl = {irisX} email = "pleasework@gmail.com"
-            position = "Selection Committee" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+            <TeamCard name = "Iris Xu" imageUrl = {irisX}
+            position = "Selection Committee" linkedin = ""/>
 
-            <TeamCard name = "Tara Ubovic" imageUrl = {tara} email = "pleasework@gmail.com"
-            position = "Admin" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+            <TeamCard name = "Tara Ubovic" imageUrl = {tara}
+            position = "Admin" linkedin = "www.linkedin.com/in/tara-ubovic"/>
 
-            <TeamCard name = "Natacha Bailly" imageUrl = {natacha} email = "pleasework@gmail.com"
-            position = "Events" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+            <TeamCard name = "Natacha Bailly" imageUrl = {natacha}
+            position = "Events" linkedin = ""/>
 
-            <TeamCard name = "Karan Chick" imageUrl = {karan} email = "pleasework@gmail.com"
-            position = "Events" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+            <TeamCard name = "Karan Chick" imageUrl = {karan}
+            position = "Events" linkedin = "www.linkedin.com/in/karan-chick"/>
 
-            <TeamCard name = "Crystal Zhao" imageUrl = {crystal} email = "pleasework@gmail.com"
-            position = "Events" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+            <TeamCard name = "Crystal Zhao" imageUrl = {crystal}
+            position = "Events" linkedin = ""/>
 
-            <TeamCard name = "Stephanie Liu" imageUrl = {steph} email = "pleasework@gmail.com"
-            position = "Outreach" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+            <TeamCard name = "Stephanie Liu" imageUrl = {steph}
+            position = "Outreach" linkedin = ""/>
 
-            <TeamCard name = "Angie Wu Guo" imageUrl = {angie} email = "pleasework@gmail.com"
-            position = "Marketing Lead" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+            <TeamCard name = "Angie Wu Guo" imageUrl = {angie}
+            position = "Marketing Lead" linkedin = "https://www.linkedin.com/in/angiewg1011/"/>
 
-            <TeamCard name = "Emiko Araki" imageUrl = {emiko} email = "pleasework@gmail.com"
-            position = "Social Media" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+            <TeamCard name = "Emiko Araki" imageUrl = {emiko}
+            position = "Social Media" linkedin = ""/>
 
-            <TeamCard name = "Ireena Baro" imageUrl = {ireena} email = "pleasework@gmail.com"
-            position = "Designer" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+            <TeamCard name = "Ireena Baro" imageUrl = {ireena}
+            position = "Designer" linkedin = ""/>
 
-            <TeamCard name = "Iris Caglayan" imageUrl = {irisC} email = "pleasework@gmail.com"
-            position = "TikTok" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+            <TeamCard name = "Iris Caglayan" imageUrl = {irisC}
+            position = "TikTok" linkedin = ""/>
 
-            <TeamCard name = "Linh Trinh" imageUrl = {linh} email = "pleasework@gmail.com"
-            position = "Marketing" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+            <TeamCard name = "Linh Trinh" imageUrl = {linh} 
+            position = "Marketing" linkedin = ""/>
 
-            <TeamCard name = "Clara Park" imageUrl = {clara} email = "pleasework@gmail.com"
-            position = "External Executive" linkedin = "https://www.linkedin.com/company/ubc-girlcode/"/>
+            <TeamCard name = "Clara Park" imageUrl = {clara}
+            position = "External Executive"/>
             
           </div>
         </div>

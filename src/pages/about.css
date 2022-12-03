@@ -42,7 +42,7 @@
 }
 
 .team-grid-container{
-  margin: 200px 50px 200px 50px;
+  margin: 200px 250px 200px 250px;
   display: inline-grid;
   grid-template-columns: 22% 22% 22% 22%;
   column-gap: 50px;

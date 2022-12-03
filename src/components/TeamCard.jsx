@@ -12,12 +12,11 @@ export default function TeamCard(props) {
             <img src={props.imageUrl} alt = "alt"/>
             <div className = "textOverlay">
                 <br/>
-                <br/>
                 <Typography
                 color="white"
                 inline="inline"
                 weight="bold"
-                variant="h5"
+                variant="h4"
                 >
                 {props.name}
                 </Typography>
@@ -34,13 +33,14 @@ export default function TeamCard(props) {
                 weight="bold"
                 variant="h6"
                 >
-                Email: {props.email}
                 </Typography>
-                <a href={props.linkedin} target="_blank" rel="noopener noreferrer">
-                <FaLinkedin size={50} className="social-link" />
-                </a>
+                {props.linkedin
+                  ? 
+                  <a href={props.linkedin} target="_blank" rel="noopener noreferrer">
+                    <FaLinkedin size={50} className="social-link" />
+                  </a>
+                  : null}
             </div>
-            
         </div>
       </div>
     </>
