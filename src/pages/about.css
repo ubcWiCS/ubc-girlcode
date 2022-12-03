@@ -126,6 +126,20 @@
 
 /* RESPONSIVENESS */
 
+@media only screen and (max-width: 1200px) {
+
+  .clubs-inner-text{
+    margin: 0px 0px 0px 0px;
+  }
+
+  .team-grid-container{
+    margin: 200px 10px 200px 10px;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    row-gap: 50px;
+  }
+}
+
 @media only screen and (max-width: 800px) {
 
   gradient-large{
@@ -168,16 +182,29 @@
     max-width: 200px;
   }
 
+  .team-grid-container{
+    margin: 200px 10px 200px 10px;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    row-gap: 50px;
+  }
+
 }
 
-@media only screen and (max-width: 1200px) {
+
+
+
+@media only screen and (max-width: 500px) {
 
   .clubs-inner-text{
     margin: 0px 0px 0px 0px;
   }
 
   .team-grid-container{
-    grid-template-columns: auto;
     margin: 200px 10px 200px 10px;
+    grid-template-columns: auto;
+    column-gap: 50px;
+    row-gap: 50px;
   }
 }
+

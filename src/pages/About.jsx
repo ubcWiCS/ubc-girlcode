@@ -396,7 +396,7 @@ export default function About() {
             position = "Swag" linkedin = ""/>
 
             <TeamCard name = "Imo McDonald" imageUrl = {imogene}
-            position = "Webmaster" linkedin = ""/>
+            position = "Webmaster" linkedin = "https://www.linkedin.com/in/imogene-mcdonald/"/>
 
             <TeamCard name = "Lena Wang" imageUrl = {lena} 
             position = "Webmaster" linkedin = "https://www.linkedin.com/in/lenawang/"/>
@@ -411,13 +411,13 @@ export default function About() {
             position = "Admin" linkedin = "www.linkedin.com/in/tara-ubovic"/>
 
             <TeamCard name = "Natacha Bailly" imageUrl = {natacha}
-            position = "Events" linkedin = ""/>
+            position = "Events" linkedin = "https://www.linkedin.com/in/natacha-bailly-128202239/"/>
 
             <TeamCard name = "Karan Chick" imageUrl = {karan}
             position = "Events" linkedin = "www.linkedin.com/in/karan-chick"/>
 
             <TeamCard name = "Crystal Zhao" imageUrl = {crystal}
-            position = "Events" linkedin = ""/>
+            position = "Events" linkedin = "https://www.linkedin.com/in/crystalzhao1125/"/>
 
             <TeamCard name = "Stephanie Liu" imageUrl = {steph}
             position = "Outreach" linkedin = ""/>
