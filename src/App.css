@@ -127,7 +127,7 @@ button:hover {
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: .5s ease;
+  /*transition: .5s ease;*/
   background: linear-gradient(45deg, rgba(191, 184, 233, .8) 30%, rgba(142, 177, 223, .8));
 }
 
