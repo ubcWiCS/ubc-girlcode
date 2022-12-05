@@ -381,7 +381,7 @@ export default function About() {
             position = "Co-Founder" linkedin = "https://www.linkedin.com/in/sandraradic/"/>
 
             <TeamCard name = "Yeojun Han" imageUrl = {yeojun}
-            position = "Finance" linkedin = ""/>
+            position = "Finance" linkedin = "https://www.linkedin.com/in/yeojun"/>
 
             <TeamCard name = "Moira Renata" imageUrl = {moira}
             position = "Finance" linkedin = ""/>
@@ -405,7 +405,7 @@ export default function About() {
             position = "Selection Committee" linkedin = ""/>
 
             <TeamCard name = "Iris Xu" imageUrl = {irisX}
-            position = "Selection Committee" linkedin = ""/>
+            position = "Selection Committee" linkedin = "https://www.linkedin.com/in/irisxu02/"/>
 
             <TeamCard name = "Tara Ubovic" imageUrl = {tara}
             position = "Admin" linkedin = "www.linkedin.com/in/tara-ubovic"/>
@@ -435,7 +435,7 @@ export default function About() {
             position = "TikTok" linkedin = ""/>
 
             <TeamCard name = "Linh Trinh" imageUrl = {linh} 
-            position = "Marketing" linkedin = ""/>
+            position = "Marketing" linkedin = "https://www.linkedin.com/in/linh-kl-trinh"/>
 
             <TeamCard name = "Clara Park" imageUrl = {clara}
             position = "External Executive"/>
