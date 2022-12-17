@@ -327,11 +327,12 @@ button:hover {
   background-image: linear-gradient(45deg, #D6AFD4, white);
   background: linear-gradient(90deg, #bfb8e9, transparent) #8eb1df !important;
   margin: 30px 10px 20px 10px;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 20px 10px 15px;
   color: white;
   transition: 0.3s;
   font-weight: bolder;
   max-width: 105px;
+  font-size: 16px;
 }
 
 .nav-button:hover {

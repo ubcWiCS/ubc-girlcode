@@ -37,14 +37,14 @@ export default function FAQ() {
           When will we find out if we are accepted?
         </Typography>
         <Typography color="white">
-          We hope to let participants know by mid December.
+          We will be sending out responses to all applicants on December 20th.
         </Typography>
         <br />
         <Typography color="purple" weight="bold">
           How does team formation work?
         </Typography>
         <Typography color="white">
-          Accepted participants will be invited to the discord where they can
+          Accepted participants will be invited to the Discord where they can
           meet other students and will fill out a teammate selection form
         </Typography>
         <br />
