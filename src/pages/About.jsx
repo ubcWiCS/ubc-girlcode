@@ -13,6 +13,7 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import SocialSideBar from "../components/SocialSideBar";
 import Typography from "../components/Typography";
+import TeamCard from "../components/TeamCard";
 
 import aritzia from "../imgs/aritzia.svg";
 import bubblesLeft from "../imgs/bubbles-left.svg";
@@ -24,6 +25,31 @@ import valuesText from "../imgs/values-text.svg";
 import manyBubbles from "../imgs/many-bubbles-right.svg";
 import bubblesLeft2 from "../imgs/bubbles-left-3.svg";
 import bubblesRight from "../imgs/bubbles-right.svg";
+
+import angie from "../imgs/team/angie.jpg";
+import carina from "../imgs/team/carina.JPG";
+import chloe from "../imgs/team/chloe.png";
+import clara from "../imgs/team/clara.jpg";
+import crystal from "../imgs/team/crystal.jpg";
+import emiko from "../imgs/team/emiko@4x.png";
+import hannah from "../imgs/team/hannah.png";
+import imogene from "../imgs/team/imogene.jpg";
+import ireena from "../imgs/team/ireena.jpeg";
+import irisC from "../imgs/team/irisC.png";
+import irisX from "../imgs/team/irisX.png";
+import jasvir from "../imgs/team/jasvir.jpeg";
+import karan from "../imgs/team/karan.jpg";
+import lena from "../imgs/team/lena.jpeg";
+import linh from "../imgs/team/linh.png";
+import moira from "../imgs/team/moira@4x.png";
+import natacha from "../imgs/team/natacha.jpeg";
+import sandra from "../imgs/team/sandra.jpg";
+import sarah from "../imgs/team/sarah.png";
+import steph from "../imgs/team/steph.jpg";
+import tara from "../imgs/team/tara@4x.png";
+import yeojun from "../imgs/team/yeojun.jpeg";
+
+
 
 import "./about.css";
 
@@ -43,32 +69,35 @@ export default function About() {
       <div className="inner-text">
         <div className="about-responsive page-container ">
           <gradient-medium>What&nbsp; &nbsp; &nbsp;</gradient-medium>
-          <Typography color="white" inline="inline" weight="bold" variant="h1">
+          <Typography color="white" inline="inline" weight="bold" variant="h3">
             24-hour &nbsp;
           </Typography>
-          <Typography color="tan" inline="inline" weight="bold" variant="h1">
+          <Typography color="tan" inline="inline" weight="bold" variant="h3">
             in-person &nbsp;
           </Typography>
-          <Typography color="white" inline="inline" weight="bold" variant="h1">
+          <Typography color="white" inline="inline" weight="bold" variant="h3">
             hackathon &nbsp;
           </Typography>
           <br />
           <gradient-medium>Where &nbsp;</gradient-medium>
-          <Typography color="white" inline="inline" weight="bold" variant="h1">
+          <Typography color="white" inline="inline" weight="bold" variant="h3">
             hosted at &nbsp;
           </Typography>
-          <Typography color="tan" inline="inline" weight="bold" variant="h1">
+          <Typography color="tan" inline="inline" weight="bold" variant="h3">
+            Abdula Ladha Science Student Centre&nbsp;
+          </Typography>
+          <Typography color="white" inline="inline" weight="bold" variant="h3">
             UBC &nbsp;
           </Typography>
           <br />
           <gradient-medium>When &nbsp; &nbsp;</gradient-medium>
-          <Typography color="white" inline="inline" weight="bold" variant="h1">
+          <Typography color="white" inline="inline" weight="bold" variant="h3">
             from &nbsp;
           </Typography>
-          <Typography color="tan" inline="inline" weight="bold" variant="h1">
-            January 13th-14th, &nbsp;
+          <Typography color="tan" inline="inline" weight="bold" variant="h3">
+            January 13th 3:00pm-14th, &nbsp;
           </Typography>
-          <Typography color="white" inline="inline" weight="bold" variant="h1">
+          <Typography color="white" inline="inline" weight="bold" variant="h3">
             2023 &nbsp;
           </Typography>
         </div>
@@ -343,6 +372,78 @@ export default function About() {
             participating in an environment that celebrates the experiences of
             women.
           </Typography>
+        </div>
+        
+        <div className="centered-team">
+        <gradient-large>Our Team</gradient-large>
+          <div className = "team-grid-container">
+            <TeamCard name = "Hannah Martin" imageUrl = {hannah}
+            position = "Co-Founder" linkedin = "https://www.linkedin.com/in/hannah-martin11"/>
+
+            <TeamCard name = "Sandra Radic" imageUrl = {sandra}
+            position = "Co-Founder" linkedin = "https://www.linkedin.com/in/sandraradic/"/>
+
+            <TeamCard name = "Yeojun Han" imageUrl = {yeojun}
+            position = "Finance" linkedin = ""/>
+
+            <TeamCard name = "Moira Renata" imageUrl = {moira}
+            position = "Finance" linkedin = ""/>
+
+            <TeamCard name = "Sarah Wong" imageUrl = {sarah}
+            position = "Merch" linkedin = "https://www.linkedin.com/in/sarah-ashley-wong/"/>
+
+            <TeamCard name = "Carina Tze" imageUrl = {carina}
+            position = "Swag" linkedin = ""/>
+
+            <TeamCard name = "Chloe Curry" imageUrl = {chloe}
+            position = "Swag" linkedin = ""/>
+
+            <TeamCard name = "Imo McDonald" imageUrl = {imogene}
+            position = "Webmaster" linkedin = "https://www.linkedin.com/in/imogene-mcdonald/"/>
+
+            <TeamCard name = "Lena Wang" imageUrl = {lena} 
+            position = "Webmaster" linkedin = "https://www.linkedin.com/in/lenawang/"/>
+
+            <TeamCard name = "Jasvir Sandhu" imageUrl = {jasvir}
+            position = "Selection Committee" linkedin = ""/>
+
+            <TeamCard name = "Iris Xu" imageUrl = {irisX}
+            position = "Selection Committee" linkedin = ""/>
+
+            <TeamCard name = "Tara Ubovic" imageUrl = {tara}
+            position = "Admin" linkedin = "www.linkedin.com/in/tara-ubovic"/>
+
+            <TeamCard name = "Natacha Bailly" imageUrl = {natacha}
+            position = "Events" linkedin = "https://www.linkedin.com/in/natacha-bailly-128202239/"/>
+
+            <TeamCard name = "Karan Chick" imageUrl = {karan}
+            position = "Events" linkedin = "www.linkedin.com/in/karan-chick"/>
+
+            <TeamCard name = "Crystal Zhao" imageUrl = {crystal}
+            position = "Events" linkedin = "https://www.linkedin.com/in/crystalzhao1125/"/>
+
+            <TeamCard name = "Stephanie Liu" imageUrl = {steph}
+            position = "Outreach" linkedin = ""/>
+
+            <TeamCard name = "Angie Wu Guo" imageUrl = {angie}
+            position = "Marketing Lead" linkedin = "https://www.linkedin.com/in/angiewg1011/"/>
+
+            <TeamCard name = "Emiko Araki" imageUrl = {emiko}
+            position = "Social Media" linkedin = ""/>
+
+            <TeamCard name = "Ireena Baro" imageUrl = {ireena}
+            position = "Designer" linkedin = ""/>
+
+            <TeamCard name = "Iris Caglayan" imageUrl = {irisC}
+            position = "TikTok" linkedin = ""/>
+
+            <TeamCard name = "Linh Trinh" imageUrl = {linh} 
+            position = "Marketing" linkedin = ""/>
+
+            <TeamCard name = "Clara Park" imageUrl = {clara}
+            position = "External Executive"/>
+            
+          </div>
         </div>
         <div className="centered-child">
           <Link as={Link} to="/contact" className="nav-link">

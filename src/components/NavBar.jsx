@@ -4,7 +4,7 @@ import navbarLogo from "../imgs/girlCodeHeader.svg";
 
 import "../App.css";
 
-export default function NavBar () {
+export default function NavBar() {
 
   return (
     <Navbar bg="light" expand="lg">
@@ -17,7 +17,7 @@ export default function NavBar () {
             height="150"
             className="d-inline-block align-top"
           />
-          </Navbar.Brand>
+        </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse id="basic-navbar-nav" bg="light">
           <Nav className="ms-auto">
@@ -25,7 +25,9 @@ export default function NavBar () {
             <Nav.Link as={NavLink} to="/about" className="nav-link">About</Nav.Link>
             <Nav.Link as={NavLink} to="/contact" className="nav-link">Contact</Nav.Link>
             <Nav.Link as={NavLink} to="/faq" className="nav-link">FAQ</Nav.Link>
-            <Nav as={NavLink} to="/register" className="nav-button">Register Now</Nav>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSek2NJzhSxFLnPMce19OIkQ32lg-rgGrSmTh_8MNXUzFtvCZQ/viewform">
+              <button type="button" className="nav-button">Volunteer</button>
+            </a>
           </Nav>
         </Navbar.Collapse>
       </Container>

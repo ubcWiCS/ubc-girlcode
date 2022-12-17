@@ -71,7 +71,7 @@ export default function Home() {
             <br />
             <br />
             <form action="/register" >
-		          <button> Register Now</button>
+		          <button> Register</button>
             </form>
           </div>
         </div>

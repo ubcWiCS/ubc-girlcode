@@ -41,6 +41,22 @@
   align-content: center;
 }
 
+.team-grid-container{
+  margin: 200px 250px 200px 250px;
+  display: inline-grid;
+  grid-template-columns: 22% 22% 22% 22%;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
+.centered-team{
+  margin: 200px 50px 200px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .bubbles-grid-child{
   display: flex;
 }
@@ -111,6 +127,20 @@
 
 /* RESPONSIVENESS */
 
+@media only screen and (max-width: 1200px) {
+
+  .clubs-inner-text{
+    margin: 0px 0px 0px 0px;
+  }
+
+  .team-grid-container{
+    margin: 200px 10px 200px 10px;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    row-gap: 50px;
+  }
+}
+
 @media only screen and (max-width: 800px) {
 
   gradient-large{
@@ -152,11 +182,30 @@
     min-width: 100px;
     max-width: 200px;
   }
+
+  .team-grid-container{
+    margin: 200px 10px 200px 10px;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    row-gap: 50px;
+  }
+
 }
 
-@media only screen and (max-width: 1200px) {
+
+
+
+@media only screen and (max-width: 500px) {
 
   .clubs-inner-text{
     margin: 0px 0px 0px 0px;
   }
+
+  .team-grid-container{
+    margin: 200px 10px 200px 10px;
+    grid-template-columns: auto;
+    column-gap: 50px;
+    row-gap: 50px;
+  }
 }
+
