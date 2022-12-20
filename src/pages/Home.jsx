@@ -42,7 +42,7 @@ export default function Home() {
             <br />
             <br />
             <form action="/About" >
-		          <button> Learn More</button>
+		          <button className="cta-button"> Learn More</button>
             </form>
           </paragraph>
         </div>
@@ -71,7 +71,7 @@ export default function Home() {
             <br />
             <br />
             <form action="/register" >
-		          <button> Register</button>
+		          <button className="cta-button"> Register</button>
             </form>
           </div>
         </div>
