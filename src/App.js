@@ -9,6 +9,7 @@ import Contact from "./pages/Contact";
 import FAQ from "./pages/FAQ";
 import CodeOfConduct from "./pages/CodeOfConduct";
 import CaseProblem from "./pages/CaseProblem";
+import Schedule from "./pages/Schedule";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path='/contact' element={<Contact />} />
       <Route path='/conduct' element={<CodeOfConduct />} />
       <Route path='/faq' element={<FAQ />} />
+      <Route path='/schedule' element={<Schedule />} />
       <Route
         path='*'
         element={

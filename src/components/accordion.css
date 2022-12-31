@@ -1,0 +1,35 @@
+.accordion {
+    color: white;
+    /* display: inline-block; */
+    width: auto;
+    position:sticky;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.accordion-item {
+    background-color: inherit;
+}
+
+.accordion-title {
+    background-color: none; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.acc-btn{
+    background-color: white;
+    color: black;
+    width: 30px;
+    height: 30px;
+    font: Inter;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+.accordion-content{
+
+}
