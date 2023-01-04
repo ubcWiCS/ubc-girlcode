@@ -28,6 +28,30 @@ const workshops = [
       "Fresh out of 110 and have no idea how you will make a project with Dr. Racket? Have no fear, JavaScript is here to save you! This is a workshop designed for beginners. We will teach to the fundamentals of HTML, CSS, and JavaScript so you understand how basic web components are constructed.",
     url: "https://forms.gle/5iJABZZRMuXjXW5g8",
   },
+  {
+    name: "Succeeding in Your First Hackathon",
+    description:
+      "Is this your first Hackathon? No worries - we have tips and tricks from seasoned Hackathon participants to help guide you during the weekend.",
+    url: "https://forms.gle/v1ZcAu3rQ8nUyaSQ9",
+  },
+  {
+    name: "Intro to Python",
+    description:
+      "Python is a language commonly used language for quickly building apps, including those using machine learning tools. We will share some useful aspects of Python in this workshop.",
+    url: "https://forms.gle/66KxxkYASprnaf7F6",
+  },
+  {
+    name: "Intro to React",
+    description:
+      "It's time to test your new web development skills! This is a workshop designed for beginners, and a follow up to the Intro to Web Dev workshop. We will introduce you to the React framework and work through a coding exercise.",
+    url: "https://forms.gle/ac3qEUeXkeeYC6X58",
+  },
+  {
+    name: "Intro to Figma",
+    description:
+      "Figma is a great tool for mocking up your apps, and is used in industry by UI/UX design experts. We will cover some basic Figma concepts to help create your app design.",
+    url: "https://forms.gle/LCNu9yUkTsiz34MC9",
+  },
 ];
 
 export default function Workshops() {
@@ -91,15 +115,15 @@ export default function Workshops() {
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>1 pm</td>
+          <tr>
+              <td>11 am</td>
               <td>
                 <button
                   className="workshop-btn"
                   onClick={handleOpenModal}
-                  value={1}
+                  value={3}
                 >
-                  Intro to iOS
+                  Succeeding in Your First Hackathon
                 </button>
               </td>
               <td></td>
@@ -107,9 +131,16 @@ export default function Workshops() {
               <td></td>
             </tr>
             <tr>
-              <td>2 pm</td>
+              <td>12 pm</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>1 pm</td>
               <td>
-                {" "}
+              {" "}
                 <button
                   className="workshop-btn"
                   onClick={handleOpenModal}
@@ -118,6 +149,13 @@ export default function Workshops() {
                 Intro to Git and GitHub
                 </button>
               </td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2 pm</td>
+              <td></td>
               <td></td>
               <td></td>
               <td></td>
@@ -139,24 +177,71 @@ export default function Workshops() {
             <tr>
               <td>5 pm</td>
               <td></td>
-              <td>Succeeding in your first hackathon</td>
-              <td>Intro to React</td>
-              <td>Figma</td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
               <td>6 pm</td>
               <td></td>
               <td>
-                {" "}
+                <button
+                  className="workshop-btn"
+                  onClick={handleOpenModal}
+                  value={1}
+                >
+                  Intro to iOS
+                </button>
+              </td>
+              <td>
+              {" "}
+                <button
+                  className="workshop-btn"
+                  onClick={handleOpenModal}
+                  value={5}
+                >
+                Intro to React
+                </button>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>6:30 pm</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+              {" "}
+                <button
+                  className="workshop-btn"
+                  onClick={handleOpenModal}
+                  value={6}
+                >
+                Intro to Figma
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>8 pm</td>
+              <td></td>
+              <td>                {" "}
                 <button
                   className="workshop-btn"
                   onClick={handleOpenModal}
                   value={2}
                 >
                 Intro to Web Development
+                </button></td>
+              <td>
+              {" "}
+                <button
+                  className="workshop-btn"
+                  onClick={handleOpenModal}
+                  value={4}
+                >
+                Intro to Python
                 </button>
               </td>
-              <td>Intro to Python</td>
               <td></td>
             </tr>
           </tbody>
