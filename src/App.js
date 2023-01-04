@@ -9,6 +9,7 @@ import Contact from "./pages/Contact";
 import FAQ from "./pages/FAQ";
 import CodeOfConduct from "./pages/CodeOfConduct";
 import CaseProblem from "./pages/CaseProblem";
+import Workshops from "./pages/Workshops";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/case' element={<CaseProblem />} />
+      <Route path='/workshops' element={<Workshops />} />
       <Route path='/about' element={<About />} />
       <Route path='/register' element={<SignUp />} />
       <Route path='/contact' element={<Contact />} />

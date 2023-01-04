@@ -37,7 +37,7 @@ export default function FAQ() {
           When will we find out if we are accepted?
         </Typography>
         <Typography color="white">
-          We will be sending out responses to all applicants on December 20th.
+          Applications will be sent out on a rolling basis starting on Dec 20th. Please let us know if you have not received a response.
         </Typography>
         <br />
         <Typography color="purple" weight="bold">
