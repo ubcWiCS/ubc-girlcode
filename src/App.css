@@ -551,6 +551,7 @@ svg{
 
 /* RESPONSIVENESS */
 
+
 @media only screen and (max-width:800px) {
 
   .landingPage{
@@ -662,3 +663,11 @@ svg{
     text-align: center;
   }
 }
+
+@media only screen and (max-width: 600px) {
+
+  .info-container{
+      margin: 50px 30px 50px 30px;
+      text-align: center;
+    }
+} 
