@@ -5,6 +5,7 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import SocialSideBar from "../components/SocialSideBar";
 import WorkshopModal from "../components/WorkshopModal";
+import Typography from "../components/Typography";
 
 import bubblesLeft from "../imgs/bubbles-left-3.svg";
 import bubblesThree from "../imgs/ThreeRightBubbles.svg";
@@ -89,11 +90,7 @@ export default function Workshops() {
       ) : null}
       <div className="page-starter-container">
         <div>
-        <img
-            src={bubblesLeft}
-            alt="Aritzia"
-            className="bubbles-left"
-          ></img>
+          <img src={bubblesLeft} alt="Aritzia" className="bubbles-left"></img>
           <img
             src={bubblesThree}
             alt="Aritzia"
@@ -115,7 +112,7 @@ export default function Workshops() {
             </tr>
           </thead>
           <tbody>
-          <tr>
+            <tr>
               <td>11 am</td>
               <td>
                 <button
@@ -140,13 +137,13 @@ export default function Workshops() {
             <tr>
               <td>1 pm</td>
               <td>
-              {" "}
+                {" "}
                 <button
                   className="workshop-btn"
                   onClick={handleOpenModal}
                   value={0}
                 >
-                Intro to Git and GitHub
+                  Intro to Git and GitHub
                 </button>
               </td>
               <td></td>
@@ -194,13 +191,13 @@ export default function Workshops() {
                 </button>
               </td>
               <td>
-              {" "}
+                {" "}
                 <button
                   className="workshop-btn"
                   onClick={handleOpenModal}
                   value={5}
                 >
-                Intro to React
+                  Intro to React
                 </button>
               </td>
               <td></td>
@@ -211,41 +208,50 @@ export default function Workshops() {
               <td></td>
               <td></td>
               <td>
-              {" "}
+                {" "}
                 <button
                   className="workshop-btn"
                   onClick={handleOpenModal}
                   value={6}
                 >
-                Intro to Figma
+                  Intro to Figma
                 </button>
               </td>
             </tr>
             <tr>
               <td>8 pm</td>
               <td></td>
-              <td>                {" "}
+              <td>
+                {" "}
                 <button
                   className="workshop-btn"
                   onClick={handleOpenModal}
                   value={2}
                 >
-                Intro to Web Development
-                </button></td>
+                  Intro to Web Development
+                </button>
+              </td>
               <td>
-              {" "}
+                {" "}
                 <button
                   className="workshop-btn"
                   onClick={handleOpenModal}
                   value={4}
                 >
-                Intro to Python
+                  Intro to Python
                 </button>
               </td>
               <td></td>
             </tr>
           </tbody>
         </Table>
+      </div>
+      <div className="info-container">
+        <Typography color="white" variant="h6">
+          All workshops except the Intro to iOS are open to UBC students and
+          will be hosted virtually. Meeting invites and pre-workshop materials
+          will be sent out 1-2 days before the workshop.
+        </Typography>
       </div>
       <Footer />
     </>
