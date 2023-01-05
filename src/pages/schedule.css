@@ -6,7 +6,7 @@
     background-color: #bfb8e9;
     height: auto;
     width: 75%;
-    padding: 5px;
+    padding: 5px 5px 0px 5px;
     text-align: center;
     border-radius: 0px 10px 10px 0px;
 }
@@ -59,7 +59,7 @@
     background-color: #8eb1df;
     height: auto;
     width: 75%;
-    padding: 5px;
+    padding: 5px 5px 0px 5px;
     text-align: center;
     border-radius: 10px 0px 0px 10px;
     margin-left: auto;
@@ -92,9 +92,14 @@
         height: auto;
         width: 10px;
     }
+
+    .schedule-contents-left{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
     
     .schedule-contents-right{
-        margin-left: 20px;
+        margin-left: 10px;
         margin-top: 20px;
     }
   } 

@@ -292,7 +292,7 @@ export default function Schedule() {
               weight="bold"
               variant="h6"
             >
-              Project pitch and judging begins &nbsp;
+              Project pitch judging begins &nbsp;
             </Typography>
             <Typography color="blue" inline="inline" weight="bold" variant="h6">
               4:00 pm
@@ -304,7 +304,7 @@ export default function Schedule() {
               weight="bold"
               variant="h6"
             >
-              Closing ceremony, winners announced &nbsp;
+              Closing ceremony &nbsp;
             </Typography>
             <Typography color="blue" inline="inline" weight="bold" variant="h6">
               6:00 pm
