@@ -165,6 +165,11 @@ a:hover{
   margin: 200px 50px 200px 50px;
 }
 
+.info-container{
+  margin: 100px 300px 50px 300px;
+  text-align: center;
+}
+
 .text-left {
   text-align: left;
 }
@@ -650,5 +655,10 @@ svg{
     position: relative;
     display: flex;
     justify-content: center;
+  }
+
+  .info-container{
+    margin: 100px 100px 50px 100px;
+    text-align: center;
   }
 }

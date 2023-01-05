@@ -68,11 +68,6 @@ export default function Home() {
             </paragraph>
             <br />
             <br />
-            <br />
-            <br />
-            <form action="/register" >
-		          <button className="cta-button"> Register</button>
-            </form>
           </div>
         </div>
         <img src={bubblesRight2} alt="Aritzia" className="bubbles-right"></img>
