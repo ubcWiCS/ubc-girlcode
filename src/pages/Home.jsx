@@ -42,7 +42,7 @@ export default function Home() {
             <br />
             <br />
             <form action="/About" >
-		          <button> Learn More</button>
+		          <button className="cta-button"> Learn More</button>
             </form>
           </paragraph>
         </div>
@@ -68,11 +68,6 @@ export default function Home() {
             </paragraph>
             <br />
             <br />
-            <br />
-            <br />
-            <form action="/register" >
-		          <button> Register</button>
-            </form>
           </div>
         </div>
         <img src={bubblesRight2} alt="Aritzia" className="bubbles-right"></img>

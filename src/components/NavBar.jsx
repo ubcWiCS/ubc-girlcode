@@ -26,8 +26,9 @@ export default function NavBar() {
             <Nav.Link as={NavLink} to="/about" className="nav-link">About</Nav.Link>
             <Nav.Link as={NavLink} to="/contact" className="nav-link">Contact</Nav.Link>
             <Nav.Link as={NavLink} to="/faq" className="nav-link">FAQ</Nav.Link>
+            <Nav.Link as={NavLink} to="/workshops" className="nav-link">Workshops</Nav.Link>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSek2NJzhSxFLnPMce19OIkQ32lg-rgGrSmTh_8MNXUzFtvCZQ/viewform">
-              <button type="button" className="nav-button">Volunteer</button>
+              <button type="button" className="nav-button cta-button">Volunteer</button>
             </a>
           </Nav>
         </Navbar.Collapse>
