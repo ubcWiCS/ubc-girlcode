@@ -43,7 +43,7 @@ export default function Schedule() {
         </div>
         <div className="schedule-grid-left">
           <div className="schedule-bar-left"></div>
-          <div className="schedule-contents">
+          <div className="schedule-contents-left">
             <Typography
               color="purple"
               inline="inline"
@@ -117,7 +117,7 @@ export default function Schedule() {
               weight="bold"
               variant="h6"
             >
-              Hacking begins
+              HACKING BEGINS
             </Typography>
             <br />
             <Typography
@@ -175,7 +175,7 @@ export default function Schedule() {
                 10:30 pm &nbsp;
               </Typography>
               <Accordion
-                title="Abdul Ladha Centre is closed"
+                title="Abdul Ladha Centre closed"
                 content="Hackers will not be able to stay overnight. We will remind hackers at 10pm that the space closes at 10:30pm. Hackers are welcome to work remotely overnight, and mentors will be available remotely."
               />
             </div>
@@ -189,7 +189,7 @@ export default function Schedule() {
           </Typography>
         </div>
         <div className="schedule-grid-right">
-          <div className="schedule-contents">
+          <div className="schedule-contents-right">
             <Typography
               color="white"
               inline="inline"
@@ -280,7 +280,7 @@ export default function Schedule() {
               weight="bold"
               variant="h6"
             >
-              Hacking ends; Project pitch and judging begins &nbsp;
+              HACKING ENDS &nbsp;
             </Typography>
             <Typography color="blue" inline="inline" weight="bold" variant="h6">
               4:00 pm
@@ -292,7 +292,19 @@ export default function Schedule() {
               weight="bold"
               variant="h6"
             >
-              Closing ceremony, winners announced &nbsp;
+              Project pitch judging begins &nbsp;
+            </Typography>
+            <Typography color="blue" inline="inline" weight="bold" variant="h6">
+              4:00 pm
+            </Typography>
+            <br />
+            <Typography
+              color="white"
+              inline="inline"
+              weight="bold"
+              variant="h6"
+            >
+              Closing ceremony &nbsp;
             </Typography>
             <Typography color="blue" inline="inline" weight="bold" variant="h6">
               6:00 pm
