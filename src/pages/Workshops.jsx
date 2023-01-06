@@ -187,7 +187,7 @@ export default function Workshops() {
                   onClick={handleOpenModal}
                   value={1}
                 >
-                  Intro to iOS
+                  Intro to iOS (in person)
                 </button>
               </td>
               <td>
