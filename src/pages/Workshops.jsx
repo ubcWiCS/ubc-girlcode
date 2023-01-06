@@ -20,7 +20,7 @@ const workshops = [
   {
     name: "Intro to iOS",
     description:
-      "Have an idea for a cool mobile app? This workshop will introduce you to creating an iOS app.",
+      "Have an idea for a cool mobile app? This workshop will introduce you to creating an iOS app. This is an intermediate workshop where participants would ideally have completed CPSC 210. Pre-workshop materials will be sent out with helpful resources for students who have not yet completed 210. Note- this workshop will be hosted in ICCS 246 and is only available to hackathon participants.",
     url: "https://forms.gle/qHckdGwYcqs3PEuL7",
   },
   {
@@ -36,7 +36,7 @@ const workshops = [
     url: "https://forms.gle/v1ZcAu3rQ8nUyaSQ9",
   },
   {
-    name: "Intro to Python",
+    name: "Intro to Machine Learning in Python",
     description:
       "Python is a language commonly used language for quickly building apps, including those using machine learning tools. We will share some useful aspects of Python in this workshop.",
     url: "https://forms.gle/66KxxkYASprnaf7F6",
@@ -203,20 +203,11 @@ export default function Workshops() {
               <td></td>
             </tr>
             <tr>
-              <td>6:30 pm</td>
+              <td>7 pm</td>
               <td></td>
               <td></td>
               <td></td>
-              <td>
-                {" "}
-                <button
-                  className="workshop-btn"
-                  onClick={handleOpenModal}
-                  value={6}
-                >
-                  Intro to Figma
-                </button>
-              </td>
+              <td></td>
             </tr>
             <tr>
               <td>8 pm</td>
@@ -238,10 +229,17 @@ export default function Workshops() {
                   onClick={handleOpenModal}
                   value={4}
                 >
-                  Intro to Python
+                  Intro to Machine Learning in Python
                 </button>
               </td>
-              <td></td>
+              <td>           {" "}
+                <button
+                  className="workshop-btn"
+                  onClick={handleOpenModal}
+                  value={6}
+                >
+                  Intro to Figma
+                </button></td>
             </tr>
           </tbody>
         </Table>
