@@ -1,6 +1,5 @@
 .accordion {
     color: white;
-    /* display: inline-block; */
     width: auto;
     position:sticky;
     display: flex;
@@ -18,7 +17,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    /* margin: 0px 10px 0px 10px; */
 }
 
 .accordion-btn{
@@ -38,3 +36,9 @@
     max-width: 400px;
 }
 
+@media only screen and (max-width: 600px) {
+
+    .accordion-content{
+        max-width: 200px;
+    }
+  } 

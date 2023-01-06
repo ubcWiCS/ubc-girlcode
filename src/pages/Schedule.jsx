@@ -151,6 +151,39 @@ export default function Schedule() {
                 content="Dinner is provided thanks to Aritzia's catering service"
               />
             </div>
+            <Typography
+              color="purple"
+              inline="inline"
+              weight="bold"
+              variant="h6"
+            >
+              7:00 pm &nbsp;
+            </Typography>
+            <Typography
+              color="white"
+              inline="inline"
+              weight="bold"
+              variant="h6"
+            >
+             Career Advice workshop
+            </Typography>
+            <br/>
+            <Typography
+              color="purple"
+              inline="inline"
+              weight="bold"
+              variant="h6"
+            >
+              7:45 pm &nbsp;
+            </Typography>
+            <Typography
+              color="white"
+              inline="inline"
+              weight="bold"
+              variant="h6"
+            >
+              Resume workshop
+            </Typography>
             <div className="accordion-left">
               <Typography
                 color="purple"
@@ -158,25 +191,11 @@ export default function Schedule() {
                 weight="bold"
                 variant="h6"
               >
-                7:30 pm &nbsp;
-              </Typography>
-              <Accordion
-                title="Career Advice workshop"
-                content="One of our mentors will give insights on their career."
-              />
-            </div>
-            <div className="accordion-left">
-              <Typography
-                color="purple"
-                inline="inline"
-                weight="bold"
-                variant="h6"
-              >
-                10:30 pm &nbsp;
+                10:00 pm &nbsp;
               </Typography>
               <Accordion
                 title="Abdul Ladha Centre closed"
-                content="Hackers will not be able to stay overnight. We will remind hackers at 10pm that the space closes at 10:30pm. Hackers are welcome to work remotely overnight, and mentors will be available remotely."
+                content="Hackers will not be able to stay overnight, but are welcome to work remotely overnight, and mentors will be available remotely."
               />
             </div>
           </div>
