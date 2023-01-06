@@ -195,7 +195,7 @@ export default function Schedule() {
               </Typography>
               <Accordion
                 title="Abdul Ladha Centre closed"
-                content="Hackers will not be able to stay overnight, but are welcome to work remotely overnight, and mentors will be available remotely."
+                content="Hackers will not be able to stay overnight, but are welcome to work remotely overnight."
               />
             </div>
           </div>

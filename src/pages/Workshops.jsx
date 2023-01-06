@@ -50,7 +50,7 @@ const workshops = [
   {
     name: "Intro to Figma",
     description:
-      "Figma is a great tool for mocking up your apps, and is used in industry by UI/UX design experts. We will cover some basic Figma concepts to help create your app design.",
+      "Don't know how to begin designing your project? Figma is a useful tool for creating wireframes and mockups and is a great place to start! We will cover basic Figma concepts and some prototying techniques through a live demo",
     url: "https://forms.gle/LCNu9yUkTsiz34MC9",
   },
 ];
@@ -200,7 +200,16 @@ export default function Workshops() {
                   Intro to React
                 </button>
               </td>
-              <td></td>
+              <td>
+                {" "}
+                <button
+                  className="workshop-btn"
+                  onClick={handleOpenModal}
+                  value={4}
+                >
+                  Intro to Machine Learning in Python
+                </button>
+              </td>
             </tr>
             <tr>
               <td>7 pm</td>
@@ -222,16 +231,7 @@ export default function Workshops() {
                   Intro to Web Development
                 </button>
               </td>
-              <td>
-                {" "}
-                <button
-                  className="workshop-btn"
-                  onClick={handleOpenModal}
-                  value={4}
-                >
-                  Intro to Machine Learning in Python
-                </button>
-              </td>
+              <td></td>
               <td>           {" "}
                 <button
                   className="workshop-btn"
