@@ -21,7 +21,7 @@ const workshops = [
     name: "Intro to iOS",
     description:
       "Have an idea for a cool mobile app? This workshop will introduce you to creating an iOS app. This is an intermediate workshop where participants would ideally have completed CPSC 210. Pre-workshop materials will be sent out with helpful resources for students who have not yet completed 210. Note- this workshop will be hosted in ICCS 246 and is only available to hackathon participants.",
-    url: "https://forms.gle/qHckdGwYcqs3PEuL7",
+    url: "https://forms.gle/ZrQbdrgyKtYL3Kvy9",
   },
   {
     name: "Intro to Web Development",
