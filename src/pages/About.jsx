@@ -84,7 +84,7 @@ export default function About() {
             hosted at &nbsp;
           </Typography>
           <Typography color="tan" inline="inline" weight="bold" variant="h3">
-            Abdula Ladha Science Student Centre&nbsp;
+            Abdul Ladha Science Student Centre&nbsp;
           </Typography>
           <Typography color="white" inline="inline" weight="bold" variant="h3">
             UBC &nbsp;

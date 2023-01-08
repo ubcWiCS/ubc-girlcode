@@ -75,6 +75,13 @@ export default function FAQ() {
         <Typography color="white">
           We encourage all gender minorities and allies to apply.
         </Typography>
+        <br />
+        <Typography color="purple" weight="bold">
+          Can I stay overnight?
+        </Typography>
+        <Typography color="white">
+          Hackers will not be able to stay overnight, but are welcome to work remotely overnight.
+        </Typography>
       </div>
       <Footer />
     </>

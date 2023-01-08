@@ -21,7 +21,7 @@ const workshops = [
     name: "Intro to iOS",
     description:
       "Have an idea for a cool mobile app? This workshop will introduce you to creating an iOS app. This is an intermediate workshop where participants would ideally have completed CPSC 210. Pre-workshop materials will be sent out with helpful resources for students who have not yet completed 210. Note- this workshop will be hosted in ICCS 246 and is only available to hackathon participants.",
-    url: "https://forms.gle/qHckdGwYcqs3PEuL7",
+    url: "https://forms.gle/ZrQbdrgyKtYL3Kvy9",
   },
   {
     name: "Intro to Web Development",
@@ -50,7 +50,7 @@ const workshops = [
   {
     name: "Intro to Figma",
     description:
-      "Figma is a great tool for mocking up your apps, and is used in industry by UI/UX design experts. We will cover some basic Figma concepts to help create your app design.",
+      "Don't know how to begin designing your project? Figma is a useful tool for creating wireframes and mockups and is a great place to start! We will cover basic Figma concepts and some prototying techniques through a live demo",
     url: "https://forms.gle/LCNu9yUkTsiz34MC9",
   },
 ];
@@ -187,7 +187,7 @@ export default function Workshops() {
                   onClick={handleOpenModal}
                   value={1}
                 >
-                  Intro to iOS
+                  Intro to iOS (in person)
                 </button>
               </td>
               <td>
@@ -200,7 +200,16 @@ export default function Workshops() {
                   Intro to React
                 </button>
               </td>
-              <td></td>
+              <td>
+                {" "}
+                <button
+                  className="workshop-btn"
+                  onClick={handleOpenModal}
+                  value={4}
+                >
+                  Intro to Machine Learning in Python
+                </button>
+              </td>
             </tr>
             <tr>
               <td>7 pm</td>
@@ -222,16 +231,7 @@ export default function Workshops() {
                   Intro to Web Development
                 </button>
               </td>
-              <td>
-                {" "}
-                <button
-                  className="workshop-btn"
-                  onClick={handleOpenModal}
-                  value={4}
-                >
-                  Intro to Machine Learning in Python
-                </button>
-              </td>
+              <td></td>
               <td>           {" "}
                 <button
                   className="workshop-btn"
