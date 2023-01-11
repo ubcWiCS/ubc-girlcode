@@ -323,10 +323,22 @@ export default function Schedule() {
               weight="bold"
               variant="h6"
             >
-              Closing ceremony &nbsp;
+              Closing ceremony begins &nbsp;
             </Typography>
             <Typography color="blue" inline="inline" weight="bold" variant="h6">
               6:00 pm
+            </Typography>
+            <br />
+            <Typography
+              color="white"
+              inline="inline"
+              weight="bold"
+              variant="h6"
+            >
+              Closing ceremony ends &nbsp;
+            </Typography>
+            <Typography color="blue" inline="inline" weight="bold" variant="h6">
+              7:00 pm
             </Typography>
           </div>
           <div className="schedule-bar-right"></div>

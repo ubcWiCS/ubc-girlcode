@@ -41,8 +41,8 @@ export default function Home() {
             <br />
             <br />
             <br />
-            <form action="/About" >
-		          <button className="cta-button"> Learn More</button>
+            <form action="/About">
+              <button className="cta-button"> Learn More</button>
             </form>
           </paragraph>
         </div>
@@ -57,10 +57,9 @@ export default function Home() {
           </paragraph>
         </div>
         <div className="centre">
-        <img src={glassBubble} alt="Aritzia" className="glassBubble"></img>
+          <img src={glassBubble} alt="Aritzia" className="glassBubble"></img>
           <div className="glass">
             <paragraph>
-            
               girlCode strives to <bold>ignite</bold> creativity,{" "}
               <bold>build</bold> friendships and <bold>empower</bold> the next
               generation of leaders in tech through building impactful
@@ -81,9 +80,21 @@ export default function Home() {
             possibilities).
           </paragraph>
         </div>
+        <div className="rightJustified grid-container">
+          <div></div>
+          <paragraph>
+            <br />
+            <br />
+            <br />
+            We would like to acknowledge that girlCode hackathon will be held on
+            the UBC Point Grey (Vancouver) campus, which sits on the
+            traditional, ancestral, unceded territory of xʷməθkʷəy̓əm (Musqueam)
+            First Nation.
+          </paragraph>
+        </div>
         <img src={bubblesLeft4} alt="Aritzia" className="bubbles-left"></img>
         <div className="centre">
-        <Link as={Link} to="/contact" className="nav-link">
+          <Link as={Link} to="/contact" className="nav-link">
             {" "}
             <Typography
               color="white"
@@ -93,12 +104,7 @@ export default function Home() {
             >
               Questions? &nbsp;
             </Typography>
-            <Typography
-              color="blue"
-              inline="inline"
-              weight="bold"
-              variant="h6"
-            >
+            <Typography color="blue" inline="inline" weight="bold" variant="h6">
               Contact us.
             </Typography>
           </Link>
