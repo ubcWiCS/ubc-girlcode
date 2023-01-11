@@ -82,6 +82,16 @@ export default function FAQ() {
         <Typography color="white">
           Hackers will not be able to stay overnight, but are welcome to work remotely overnight.
         </Typography>
+        <br />
+        <Typography color="purple" weight="bold">
+          How big are the teams? Who can be on my team?
+        </Typography>
+        <Typography color="white">
+          Teams must have 4 participants, and must all be from the same stream (beginner or experienced). 
+        </Typography>
+        <Typography color="white">
+          If you run into issues finding team member(s), please let a moderator know on Discord.
+        </Typography>
       </div>
       <Footer />
     </>

@@ -95,7 +95,7 @@ export default function About() {
             from &nbsp;
           </Typography>
           <Typography color="tan" inline="inline" weight="bold" variant="h3">
-            January 13th 3:00pm-14th, &nbsp;
+            January 13th-14th, &nbsp;
           </Typography>
           <Typography color="white" inline="inline" weight="bold" variant="h3">
             2023 &nbsp;
@@ -147,7 +147,6 @@ export default function About() {
           </div>
         </div>
       </div>
-
       <div className="page-container-bubbles-left text-right grid-container">
         <div className="bubbles-grid-child">
           <img
@@ -184,7 +183,6 @@ export default function About() {
               className="about-aritzia-logo"
             ></img>
              <br />
-             
             <Typography color="white">
               Aritzia is a Canadian women's fashion brand founded in Vancouver,
               British Columbia in 1984. Aritzia sells a variety of lifestyle
@@ -220,7 +218,7 @@ export default function About() {
           community.
         </Typography>
         <div className="inner-text">
-          <Typography color="white" inline="inline" variant="h6">
+          <Typography color="white" variant="h6">
             Aritzia Community is committed to supporting organizations that help
             women and girls succeed at work and in life and mental wellbeing. We
             do so through three pillars of impact: poverty alleviation,
@@ -247,7 +245,7 @@ export default function About() {
             <img src={jwong} alt="ubc girlcode" className="ceo-img"></img>
           </div>
           <div className="clubs-grid">
-            <Typography color="white" weight="bold" variant="h6">
+            <Typography color="white" variant="h6">
               Aritzia aspires to cultivate spaces and experiences that celebrate
               diversity, promote equity and champion inclusion. They evaluated
               every aspect of their business to ensure diversity, equity and

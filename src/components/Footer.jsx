@@ -1,7 +1,8 @@
 import React from "react";
-import Typography from "@mui/material/Typography";
-
+import { Link } from "react-router-dom";
 import { FaInstagram, FaFacebook, FaLinkedin, FaTiktok } from "react-icons/fa";
+
+import Typography from "../components/Typography";
 
 import wics from "../imgs/wics.svg";
 import wids from "../imgs/wids.svg";
@@ -40,14 +41,14 @@ export default function Footer() {
         </div>
         <div className="footer-bottom-container">
           <div className="footer-left-container">
-            <Typography
-              color="white"
-              component="p"
-              variant="caption"
-              gutterBottom={false}
-            >
-              Copyright © girlCode, 2022 | Code of Conduct | Privacy Policy
+            <Typography color="white" inline="inline">
+              Copyright © girlCode, 2022 | &nbsp;
             </Typography>
+            <Link as={Link} to="/conduct">
+              <Typography color="white" inline="inline">
+                Code of Conduct
+              </Typography>
+            </Link>
           </div>
           <div className="footer-right-container">
             <span className="footer-clubs">

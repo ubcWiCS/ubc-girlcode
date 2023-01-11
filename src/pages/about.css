@@ -189,11 +189,7 @@
     column-gap: 50px;
     row-gap: 50px;
   }
-
 }
-
-
-
 
 @media only screen and (max-width: 500px) {
 
@@ -206,6 +202,16 @@
     grid-template-columns: auto;
     column-gap: 50px;
     row-gap: 50px;
+  }
+
+  .partnership-text{
+    display: flex !important;
+    align-items: center;
+    margin: 0px 20px 0px 20px;
+  }
+
+  .page-container-bubbles-left{
+    margin: 0px 20px 0px 0px;
   }
 }
 
