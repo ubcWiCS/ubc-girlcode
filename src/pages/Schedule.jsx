@@ -165,7 +165,7 @@ export default function Schedule() {
               weight="bold"
               variant="h6"
             >
-             Career Advice workshop
+             Career Advice workshop 1
             </Typography>
             <br/>
             <Typography
@@ -174,7 +174,7 @@ export default function Schedule() {
               weight="bold"
               variant="h6"
             >
-              7:45 pm &nbsp;
+              7:30 pm &nbsp;
             </Typography>
             <Typography
               color="white"
@@ -182,8 +182,42 @@ export default function Schedule() {
               weight="bold"
               variant="h6"
             >
-              Resume workshop
+              Career Advice workshop 2
             </Typography>
+            <br/>
+            <Typography
+              color="purple"
+              inline="inline"
+              weight="bold"
+              variant="h6"
+            >
+             8:00 pm &nbsp;
+            </Typography>
+            <Typography
+              color="white"
+              inline="inline"
+              weight="bold"
+              variant="h6"
+            >
+              Resume workshop 1
+            </Typography>
+            <br/>
+            <Typography
+              color="purple"
+              inline="inline"
+              weight="bold"
+              variant="h6"
+            >
+             8:45 pm &nbsp;
+            </Typography>
+            <Typography
+              color="white"
+              inline="inline"
+              weight="bold"
+              variant="h6"
+            >
+              Resume workshop 2
+            </Typography>            
             <div className="accordion-left">
               <Typography
                 color="purple"
@@ -251,10 +285,10 @@ export default function Schedule() {
               weight="bold"
               variant="h6"
             >
-              Workshop &nbsp;
+              Industry Q&A workshop &nbsp;
             </Typography>
             <Typography color="blue" inline="inline" weight="bold" variant="h6">
-              10:00 am
+              10:30 am
             </Typography>
             <br />
             <Typography
@@ -267,6 +301,18 @@ export default function Schedule() {
             </Typography>
             <Typography color="blue" inline="inline" weight="bold" variant="h6">
               12:00 pm
+            </Typography>
+            <br />
+            <Typography
+              color="white"
+              inline="inline"
+              weight="bold"
+              variant="h6"
+            >
+              Aritzia SWE workshop &nbsp;
+            </Typography>
+            <Typography color="blue" inline="inline" weight="bold" variant="h6">
+              1:00 pm
             </Typography>
             <br />
             <Typography
