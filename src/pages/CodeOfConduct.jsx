@@ -5,9 +5,6 @@ import Footer from "../components/Footer";
 import SocialSideBar from "../components/SocialSideBar";
 import Typography from "../components/Typography";
 
-import bubblesLeft2 from "../imgs/bubbles-left-2.svg";
-import bubblesRight2 from "../imgs/big-bubbles-rb.svg";
-
 export default function CodeOfConduct() {
   return (
     <>
