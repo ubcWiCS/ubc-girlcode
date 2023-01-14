@@ -249,10 +249,10 @@ export default function Schedule() {
               weight="bold"
               variant="h6"
             >
-              Doors open &nbsp;
+              Registration open &nbsp;
             </Typography>
             <Typography color="blue" inline="inline" weight="bold" variant="h6">
-              7:30 am
+              8:15 am
             </Typography>
             <br />
             <Typography
@@ -264,7 +264,7 @@ export default function Schedule() {
               Breakfast bar opens &nbsp;
             </Typography>
             <Typography color="blue" inline="inline" weight="bold" variant="h6">
-              8:00 am
+              8:30 am
             </Typography>
             <br />
             <Typography
