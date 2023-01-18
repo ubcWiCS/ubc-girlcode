@@ -27,10 +27,6 @@ export default function SignUp() {
           <Typography color="white" weight="bold" variant="h1">
             Registration is now closed.
           </Typography>
-          <br></br>
-          <Typography color="white">
-            Looking forward to seeing you in 2023!
-          </Typography>
         </div>
       </div>
       

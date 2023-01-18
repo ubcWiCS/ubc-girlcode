@@ -11,6 +11,7 @@ import CodeOfConduct from "./pages/CodeOfConduct";
 import CaseProblem from "./pages/CaseProblem";
 import Schedule from "./pages/Schedule";
 import Workshops from "./pages/Workshops";
+import Winners from "./pages/Winners";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Route path='/conduct' element={<CodeOfConduct />} />
       <Route path='/faq' element={<FAQ />} />
       <Route path='/schedule' element={<Schedule />} />
+      <Route path='/winners' element={<Winners />} />
       <Route
         path='*'
         element={
