@@ -32,15 +32,6 @@ export default function Home() {
         <SocialSideBar className="icons" />
       </div>
       <div className="content">
-        <div className="page-starter-container">
-            <Typography color="white" variant="h4">
-              The hackathon case problem is now live
-            </Typography>
-            <form action="/case">
-              <button className="cta-button"> View Case Problem</button>
-            </form>
-        </div>
-        <br />
         <div className="leftJustified">
           <paragraph>
             <purple>Women in Computer Science</purple> and{" "}

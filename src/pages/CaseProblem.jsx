@@ -15,7 +15,7 @@ export default function CaseProblem() {
         </div>
         <SocialSideBar className="icons" />
       </div>
-      <div className="contact-container leftJustified">
+      <div className="contact-container">
         <Typography color="purple" weight="bold" variant="h3">
           How can we use technology to personalize fashion-retail while
           enhancing the e-commerce experience?

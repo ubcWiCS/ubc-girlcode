@@ -158,7 +158,20 @@ a:hover {
   color: black;
 }
 
+.awards-svg{
+  width: 30%;
+}
+
 /*  PAGE STYLES */
+
+.grid-container{
+  display: inline-grid;
+  grid-template-columns: 50% 50%;	
+}
+
+.grid-child{
+  margin: 20px;
+}
 
 .title {
   text-align: center;
@@ -168,6 +181,10 @@ a:hover {
   margin: 200px 50px 200px 50px;
   text-align: center;
   justify-content: center;
+}
+
+.centered-container img {
+  max-width: 80%;
 }
 
 .page-container {
@@ -350,15 +367,14 @@ a:hover {
 
 .nav-button {
   border-radius: 100px !important;
-  background-image: linear-gradient(45deg, #d6afd4, white);
+  background-image: linear-gradient(45deg, #D6AFD4, white);
   background: linear-gradient(90deg, #bfb8e9, transparent) #8eb1df !important;
   margin: 30px 10px 20px 10px;
-  padding: 10px 20px 10px 15px;
+  padding: 10px 20px 10px 20px;
   color: white;
   transition: 0.3s;
   font-weight: bolder;
-  max-width: 105px;
-  font-size: 16px;
+  max-width: 150px;
 }
 
 .nav-button:hover {
@@ -591,6 +607,11 @@ svg {
     height: 500px;
   }
 
+  .grid-container{
+    display: grid;
+    grid-template-columns: 100%;	
+  }
+
   .content {
     padding: 50px;
   }
@@ -598,6 +619,7 @@ svg {
   .glass {
     padding: 50px;
     margin: 1px;
+    margin: 20px;
   }
 
   .icons {
@@ -630,10 +652,6 @@ svg {
 
   .registerPageBody {
     margin-top: 100px;
-  }
-
-  .glass {
-    margin: 20px;
   }
 
   .page-starter-container {
@@ -694,5 +712,16 @@ svg {
 @media only screen and (max-width: 500px) {
   .glassBubble {
     width: 80%;
+  }
+
+  .contact-container {
+    margin: 0px 50px 100px 50px;
+    color: transparent;
+  }
+
+  .glass {
+    padding: 15px;
+    margin: 1px;
+    margin: 10px;
   }
 }
