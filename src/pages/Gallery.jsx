@@ -85,7 +85,7 @@ export default function Gallery() {
             {galleryImages.map((img, index) => {
               return (
                 <img
-                  alt={`2023 Event image ${img}`}
+                  alt={`2023 Event ${img}`}
                   className="gallery-img"
                   src={img}
                   key={index}
@@ -100,7 +100,7 @@ export default function Gallery() {
             {sponsorImages.map((img, index) => {
               return (
                 <img
-                  alt={`2023 Sponsor image ${img}`}
+                  alt={`2023 Sponsor ${img}`}
                   className="gallery-img"
                   src={img}
                   key={index}
