@@ -1,4 +1,5 @@
-import * as React from "react";
+import React, { useState, useCallback } from "react";
+import ImageViewer from "react-simple-image-viewer";
 
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
@@ -67,6 +68,19 @@ const galleryImages = [
 ];
 
 export default function Gallery() {
+  const [currentImage, setCurrentImage] = useState(0);
+  const [isViewerOpen, setIsViewerOpen] = useState(false);
+
+  const openImageViewer = useCallback((index) => {
+    setCurrentImage(index);
+    setIsViewerOpen(true);
+  }, []);
+
+  const closeImageViewer = () => {
+    setCurrentImage(0);
+    setIsViewerOpen(false);
+  };
+
   return (
     <>
       <NavBar />
@@ -87,11 +101,21 @@ export default function Gallery() {
                 <img
                   alt={`2023 Event ${img}`}
                   className="gallery-img"
-                  src={img}
                   key={index}
+                  onClick={() => openImageViewer(index)}
+                  src={img}
                 />
               );
             })}
+            {isViewerOpen && (
+              <ImageViewer
+                src={galleryImages}
+                currentIndex={currentImage}
+                disableScroll={false}
+                closeOnClickOutside={true}
+                onClose={closeImageViewer}
+              />
+            )}
           </div>
         </div>
         <div className="centered-team">

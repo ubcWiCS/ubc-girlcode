@@ -8,6 +8,7 @@ import wics from "../imgs/wics.svg";
 import wids from "../imgs/wids.svg";
 import ubc from "../imgs/ubc.svg";
 import aritzia from "../imgs/girlCodeFooter.svg";
+import vercel from "../imgs/vercel.svg";
 
 export default function Footer() {
   return (
@@ -39,17 +40,19 @@ export default function Footer() {
             </a>
           </span>
         </div>
+
         <div className="footer-bottom-container">
           <div className="footer-left-container">
             <Typography color="white" inline="inline">
-              Copyright © girlCode, 2022 | &nbsp;
+              Copyright © girlCode, 2022 |&nbsp;
             </Typography>
             <Link as={Link} to="/conduct">
-              <Typography color="white" inline="inline">
+              <Typography color="blue" weight="bold" inline="inline">
                 Code of Conduct
               </Typography>
             </Link>
           </div>
+
           <div className="footer-right-container">
             <span className="footer-clubs">
               <img
@@ -69,6 +72,7 @@ export default function Footer() {
               ></img>
             </span>
             <Typography>hello@ubcgirlcode.com</Typography>
+            <img className="logo" src={vercel} alt="Powered by Vercel"></img>
           </div>
         </div>
       </div>
