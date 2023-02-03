@@ -118,6 +118,15 @@ export default function Contact() {
             >
               Submit
             </Button>
+            <Button
+              type="reset"
+              fullWidth
+              variant="contained"
+              sx={{ mt: 3, mb: 2 }}
+              className="contact-button"
+            >
+              Reset
+            </Button>
           </Box>
         </Box>
       </Container>

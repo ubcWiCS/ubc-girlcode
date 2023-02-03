@@ -461,6 +461,10 @@ svg {
   align-items: flex-end;
 }
 
+.logo{
+  max-width: 80%;
+}
+
 .footer-logo {
   width: 20%;
   min-width: 200px;
@@ -735,4 +739,13 @@ svg {
     margin: 1px;
     margin: 10px;
   }
+
+  .page-container {
+    margin: 200px 10px 200px 10px;
+  }
+
+  .logo{
+    width: 50%;
+  }
+
 }
